@@ -441,6 +441,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "beyondcyberpunk",	"Beyond Cyberpunk! A Do-It-Yourself Guide to the Future" },
 	{ "bht",				"A Brief History of Time: An Interactive Adventure" },
 	{ "bioflix",			"BioFlix" },
+	{ "blindrom",			"BlindRom 0.9" },
 	{ "bowie",				"JUMP: The David Bowie Interactive CD-ROM" },
 	{ "browser",			"Browser: Artopolis 97" },
 	{ "bugbook",			"The Multimedia Bug Book" },
@@ -1594,6 +1595,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("bpmc", "", "Byron Preiss Catalog", "1ae45c23586b41997ba52e2e7c771c4c", 684865, 311),
 	// From Gahan Wilson's The Ultimate Haunted House CD
 	MACGAME1("bpmc", "", "Byron Preiss Catalog", "7f443f2e63fd497a9ad85b10dc880a91", 5208397, 313),
+
+	// Interactive book portion is Hypercard
+	MACGAME1("blindrom", "", "PLAY BLIND", "2ce360c9ea2da80a2c6d1040b0ad92dd", 384404, 310),
 
 	// Original v3.5.1 demo filename is BusinessManager.デモ
 	MACDEMO1_l("businessmanager", "v3.5.1 Demo", "BusinessManager.Demo", "f5277c53bacd27936158dd3867e587e2", 2102528, Common::JA_JPN, 311),
