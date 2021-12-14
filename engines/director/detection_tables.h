@@ -843,6 +843,7 @@ static const PlainGameDescriptor directorGames[] = {
 	// Japanese art and multimedia reference
 	{ "a5tours",			"A5 Tours: Special Data Library" },
 	{ "allthelunar",		"オール・ザ・ルナ LUNAR -ハイパーアプリケーションズ-" }, // All the Lunar: Hyper Applications
+	{ "atmos", "Atmos Tetsujin Re-Mix" }, // Bundled with the Windows/Mac release of Tetsujin Returns, aka Iron Angel of the Apocalypse: The Return
 	{ "aquaplanet",			"Aquaplanet" },
 	{ "asylum300",			"Asylum 300" },
 	{ "chunchunworld",		"Chun-Chun World" },
@@ -3909,6 +3910,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("arcmedia", "", "MAC.EXE", 	"231d3041df162be4a0ddd36a74eb03b6", 716997, 501),
 	WINGAME2("arcmedia", "", "WIN95.EXE", 	"1a7acbba10a7246ba58c1d53fc7203f5", 1411325,
 							 "000MAIN.DXR", "0fb364d9201b3b652f575282abb6ea16", 311662, 501),
+
+	// Launcher, ' ATMOS ' in the root, is also Director
+	MACGAME1_l("atmos", "", "mac/ATMOS", "4c38a51a21a1ad231f218c4786ff771d", 105599, Common::JA_JPN, 501),
+	WINGAME1t_l("atmos", "", "ATMOS/ATMOS.EXE", "b9ce0053d4bf2570adfed84903734efa", 1410461, Common::JA_JPN, 501),
 
 	WINGAME1("babesintoyland", "", "BABESIN.EXE", "1a7acbba10a7246ba58c1d53fc7203f5", 1411231, 501),
 
