@@ -727,6 +727,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "atmarktown",			"Atmark Town" },
 	{ "bem",				"妖怪人間ベム 新たなる魂の迷宮" },					// Yokai Ningen Bemu
 	{ "bemtoybox",			"妖怪人間ベム データToyBox" },						// Bem Data Toy Box
+	{ "bombreikochiba",		"千葉麗子 BOMB!" }, // Reiko Chiba - Bomb
 	{ "cellofania",			"セロファニア" },
 	{ "chinacrisis",		"China Crisis" },
 	{ "chisanaensoka",		"小さな演奏家" },									// Little Musician (Crickets)
@@ -1585,6 +1586,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Original filename is BOB©1991
 	MACGAME1("bob", "", "BOB 1991", "9f0bb7ec7720e4f680ee3aa3d22c1c9d", 1209537, 300),
+
+	// CD-ROM for Bomb! magazine focusing on "cyber idol" Reiko Chiba
+	MACGAME1_l("bombreikochiba", "", "CD-BOMB!", "276bee761e48a6fd709df77d5c2f60dd", 393879, Common::JA_JPN, 310),
 
 	WINDEMO1("bodypark", "Demo", "BODYPARK.EXE", "65d06b5fef155a2473434571aff5bc29", 1654314, 310),
 
