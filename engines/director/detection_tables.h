@@ -722,6 +722,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "ankh1",				"アンク ピラミッドの謎" },
 	{ "ankh2",				"アンク 2 ツタンカーメンの謎" },
 	{ "ankh3",				"アンク 3" },
+	{ "apeodyssey",			"Ape Odyssey 2001" },
 	{ "atmarktown",			"Atmark Town" },
 	{ "bem",				"妖怪人間ベム 新たなる魂の迷宮" },					// Yokai Ningen Bemu
 	{ "bemtoybox",			"妖怪人間ベム データToyBox" },						// Bem Data Toy Box
@@ -849,6 +850,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "atmos", "Atmos Tetsujin Re-Mix" }, // Bundled with the Windows/Mac release of Tetsujin Returns, aka Iron Angel of the Apocalypse: The Return
 	{ "aquaplanet",			"Aquaplanet" },
 	{ "asylum300",			"Asylum 300" },
+	{ "bakavideodrug", 		"バカビデオドラッグ" }, // Baka Video Drug
 	{ "chunchunworld",		"Chun-Chun World" },
 	{ "clockkero",			"ケロ時計" },
 	{ "clocksakura",		"さくら時計" },
@@ -868,6 +870,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "heidimail",			"Heidi グリーティングメールカード" },               // グリーティングメールカード (Greeting Mail Card)
 	{ "heidislide",			"Heidi スライドショー" },                           // Slideshow
 	{ "ioshow",				"iós How To Game" },
+	{ "japanart04",			"Japan Art Today 04" },
 	{ "keiri",				"経理入門" },										// Introduction to Accounting
 	{ "llla",				"Live Love Life AIDS" },
 	{ "mazebox",			"The Latest Works of MazeBox" },
@@ -908,6 +911,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "yokai400",	        "水木しげるの妖怪図鑑 傑作400選 -日本編2" },        // Mizuki Shigeru no Yokai Zukan Kessaku 400-sen Nihon-hen 2
 	{ "yokaizukan",			"妖精妖怪図鑑" },                                   // Fairy Yōkai Encyclopedia
 	{ "yumemirukairo",		"「夢みる廻廊」所幸則フルカラーミュージアムCD-ROM" }, // Gallery of Dreams
+	{ "yokaanime18", "よかアニメ18発！" }, // 18 Screwy Animations!
 	{ "zuiyomail",			"ZUIYO グリーティングメールカード" },               // グリーティングメールカード (Greeting Mail Card)
 
 	// Japanese product demos
@@ -1464,6 +1468,17 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1_l("alice", "", "Alice", "e54ec74aeb4355b0acd46320327c1bed", 271740, Common::JA_JPN, 200),
 	MACGAME1_l("alice", "Digipak", "Alice", "e54ec74aeb4355b0acd46320327c1bed", 274018, Common::JA_JPN, 200),
 
+	// Many separate apps on a single disk
+	MACGAME1_l("apeodyssey", "Ape Man & Bambi (Ape Man)", "apeMAN", "cfa68a1bc49251497ebde18e5fc9c217", 165093, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "Ape Man & Bambi (Bambi)", "BAMBI", "cfa68a1bc49251497ebde18e5fc9c217", 243751, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "CBGB (Boyfriend)", "BOYFRIEND", "cfa68a1bc49251497ebde18e5fc9c217", 297469, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "CBGB (Girlfriend)", "Girlfriend", "cfa68a1bc49251497ebde18e5fc9c217", 258490, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "CBGB (Jet Stream)", "Jet Stream", "cfa68a1bc49251497ebde18e5fc9c217", 261052, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "CBGB (One Eyed Jack)", "One Eyed Jack", "cfa68a1bc49251497ebde18e5fc9c217", 253862, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "CBGB (Romantic Thriller)", "Romantic Thriller", "cfa68a1bc49251497ebde18e5fc9c217", 263567, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "CBGB (RR Diner)", "RR Diner", "cfa68a1bc49251497ebde18e5fc9c217", 258218, Common::JA_JPN, 200),
+	MACGAME1_l("apeodyssey", "KenKen", "KenKen", "cfa68a1bc49251497ebde18e5fc9c217", 179808, Common::JA_JPN, 200),
+
 	MACDEMO1("backgrounds", "Demo", "Backgrounds Demo", "d029fcb13fd2f0944f3c04577ad3b848", 2707940, 200),
 	MACDEMO1("backgrounds", "Demo", "Backgrounds Demo", "d029fcb13fd2f0944f3c04577ad3b848", 2410386, 200),
 
@@ -1550,6 +1565,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACDEMO2_l("bakkunooni", "Wabi Demo", "Browser", 	"7ba588d9fde9f714a42fec0a2c9d9655", 2835635,
 										  "Main-Help-J", "2358b56196b9d9148990f5f5e9c7fb43", 8521, Common::JA_JPN, 311),
+
+	// Original filename is 'ﾀﾞﾌﾞﾙｸﾘｯｸしてちょんまげ!!'
+	MACGAME1_l("bakavideodrug", "", "xn--!!-l83ata4c3a3ovcsfp481v2cab5h2h5goa7fb", "f5277c53bacd27936158dd3867e587e2", 392249, Common::JA_JPN, 311),
 
 	MACGAME1("belcher", "", "The Belcher", "d0683b94f369d0d60ebd6c47d4d1ea76", 470776, 301),
 
@@ -1802,6 +1820,11 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACDEMO1("ironhelix", "1992 Demo", "IRON HELIX DEMO", "7c80091b84d4d5d48f7c773b30b10598", 1634901, 310),
 	MACDEMO1_l("ironhelix", "1993 Demo", "Iron Helix Demo (Japanese)", "1ae45c23586b41997ba52e2e7c771c4c", 378801, Common::JA_JPN, 311),
 	MACDEMO1("ironhelix", "1994 Demo", "Iron Helix Demo", "7f443f2e63fd497a9ad85b10dc880a91", 2031871, 313),
+
+	// From the two-floppy set Japan Art Today 04; this is the only
+	// Director application. The others use different tools.
+	// Original filename is '04-12SHOCHOROTｱﾆﾒ'
+	MACGAME1_l("japanart04", "", "xn--04-12SHOCHOROT-eg31fvj4g", "9f0bb7ec7720e4f680ee3aa3d22c1c9d", 452303, Common::JA_JPN, 300),
 
 	MACGAME1("jman", "", "Journeyman.16 MB", "1ae45c23586b41997ba52e2e7c771c4c", 437743, 300),
 	MACDEMO1("jman", "Sneak Preview", "Journeyman Sneak Preview", "9f0bb7ec7720e4f680ee3aa3d22c1c9d", 6222889, 300),
@@ -3837,6 +3860,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Original Mac filename is 真・百物語
 	MACGAME1_l("yokai", "", "xn--vek138qttcmsa439e", "17efee018a660458fae80de4364021ac", 556245, Common::JA_JPN, 404),
 	WINGAME1_l("yokai", "", "YOUKAI.EXE", "d223c4b2174baf83bc33357a94077fea", 740279, Common::JA_JPN, 404),
+
+	MACGAME1_l("yokaanime18", "", "xn--18-z73ankte4jofn518co1ol", "e5a799da09d626f4954f306d12bbb6ea", 340613, Common::JA_JPN, 400),
 
 	// Published by Nikkei and Sakura Notes of Minato City, Tokyo (1996)
 	// Windows disc contains a projector SWAP.EXE that loads the program using virtual memory
