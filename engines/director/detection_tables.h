@@ -754,6 +754,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "henachoco05",		"野犬ロデム" },								// Rodem the Wild
 	{ "henachoco08",		"おませなおませな屋台大作戦" },								// Omasena Omasena Stall Strategy
 	{ "henachoco09",		"ニセミジンコのうそひみつ" },								// The Secret Lie of Nisemijinko
+	{ "henachoco11", "スロプロウエスタン" }, // Slowpro Western
 	{ "himejijo",			"A.MAZING姫路城" },									// A.MAZING Himejijo (the HIMEJI Castle)
 	{ "horrortour2",		"Zeddas: Horror Tour 2" },
 	{ "horrortour3",		"ラビラーント" },									// Labyrinthe
@@ -2939,6 +2940,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1_l("henachoco08", "", "yataideomase", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
 
 	MACGAME1_l("henachoco09", "", "nisemizi", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
+
+	MACGAME1_l("henachoco11", "", "surowest", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
 
 	// Mac version is D3
 	WINGAME1t("hhouse", "",			"HHOUSE.EXE",  "b0486032820bc6a413dd836650f8b0c3", 3181345, 400),
