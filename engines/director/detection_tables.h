@@ -800,6 +800,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "pinkgear",			"Pink Gear Collection" },
 	{ "pinkgear2",			"Pink Gear 2" },
 	{ "popup",				"Pop Up Computer" },
+	{ "popupmaker",			"Pop Up Maker" },
 	{ "prescue",			"パラダイス レスキュ" },							// Paradise Rescue
 	{ "putlestory", 		"Putlestory"},
 	{ "pyramidint",			"Pyramid Interactive" },
@@ -3515,6 +3516,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1_l("popup", "", "POP UP COMPUTER", "c1c73a286e7fdb439c8d49c79a2d9997", 318305, Common::JA_JPN, 400),
 	WINGAME1_l("popup", "", "POPUP.EXE", "f47f7663a75120eca6c9e91025d51786", 65216494, Common::JA_JPN, 400),
 	MACDEMO1_l("popup", "Demo", "POP UP COMPUTER DEMO", "8272aef35bd90e06bac5d622707d9459", 304941, Common::JA_JPN, 400),
+
+	// Main game is not Director, just the autodemo
+	MACDEMO1_l("popupmaker", "Auto Demo", "PopupMaker AUTODEMO", "c2cd18765b3d7d36a0f10ef0b1fe2472", 484283, Common::JA_JPN, 404),
 
 	// Laser Publishing of Berkeley, California (1995)
 	// Plays in English, Simplified Chinese, Tibetan
