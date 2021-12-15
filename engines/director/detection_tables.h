@@ -3514,6 +3514,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("popup", "", "POP UP COMPUTER", "c1c73a286e7fdb439c8d49c79a2d9997", 318305, Common::JA_JPN, 400),
 	WINGAME1_l("popup", "", "POPUP.EXE", "f47f7663a75120eca6c9e91025d51786", 65216494, Common::JA_JPN, 400),
+	MACDEMO1_l("popup", "Demo", "POP UP COMPUTER DEMO", "8272aef35bd90e06bac5d622707d9459", 304941, Common::JA_JPN, 400),
 
 	// Laser Publishing of Berkeley, California (1995)
 	// Plays in English, Simplified Chinese, Tibetan
