@@ -3142,6 +3142,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Windows and Mac versions are D5
 	PIPGAME1("kidsbox", "", "KIDS BOX", "bcd3c718db258701496b3c5bcb827ef2", 484095, 404),
+	// Filename is 'キッズ・ボックス体験版', or 'Kids Box Trial Version'
+	MACDEMO1_l("kidsbox", "Trial Version", "xn--ncke4ac8bb8onj201w4bzdvqte", "bcd3c718db258701496b3c5bcb827ef2", 484067, Common::JA_JPN, 404),
+	// Decomposed variant
+	MACDEMO1_l("kidsbox", "Trial Version", "xn--2bka2dk1cd9dd8swlt060aix7dzd6e", "bcd3c718db258701496b3c5bcb827ef2", 484067, Common::JA_JPN, 404),
 
 	WINGAME1("kidtools", "", "DEMO.EXE", "da65c64d0821c0d689f8a3ead9301a2a", 15606953, 400),
 
