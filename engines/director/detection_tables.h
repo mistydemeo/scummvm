@@ -738,6 +738,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "cookie", 			"Cookie's Bustle: 謎のボンボワールド"},					// Mysterious Bombo World
 	{ "dan",				"ダン" },											// Dan
 	{ "djrom",				"The DJ-ROM: Da CD-Extra of Hip-Hop Music" },
+	{ "nendo",				"Digital Nendo" },
 	{ "earthtia",			"アースティアサーガ ラーサーレジェンド" },					// Earthtia Saga: Larthur's Legend
 	{ "epson96",			"I Love EPSON '96 シェイプUPガールズ" },				// Shape Up Girls
 	{ "erikotamuraoz",		"Eriko Tamura: Oz" },
@@ -3367,6 +3368,12 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("necrobius", "", "NCROBIUS.PPC", "ab6ba48edb4a93ca034c63905f615865", 605874, 400),
 	WINGAME1("necrobius", "", "N_BIUS.EXE", "d82ac6034122e1314157931f9df613f9", 692919, 400),
 	WINDEMO1("necrobius", "Demo", "N_BIUS.EXE", "d17330706956c2fda3ee482b39b0609f", 705049, 400),
+
+	// Main app isn't Director.
+	// Original filename 'Nendo デモムービー'
+	MACDEMO1_l("nendo", "Demo Movie", "xn--Nendo -8v4emd6eta10ab", "bcd3c718db258701496b3c5bcb827ef2", 481803, Common::JA_JPN, 404),
+	// decomposed version of the filename above
+	MACDEMO1_l("nendo", "Demo Movie", "xn--Nendo -1m4ea71b5dvgxa35ac", "bcd3c718db258701496b3c5bcb827ef2", 481803, Common::JA_JPN, 404),
 
 	WINDEMO1("newslinks", "Demo", "NEWS.EXE", "22900fa6922d71b1f880aa3cc0bbad1a", 16526563, 404),
 
