@@ -486,6 +486,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "learninternet",		"Video Professor: Learn to Use the Internet" },
 	{ "learnworks2",		"Video Professor: Learn Works for Windows 95, Level 2" },
 	{ "leonardo",			"Leonardo the Inventor" },
+	{ "lovedisk",			"Lovedisk 95" },
 	{ "lewisclark",			"Lewis & Clark Interactive Picture CD" },
 	{ "lifeuniverse",		"Life in the Universe" },
 	{ "louvre",				"Le Louvre: The palace & its paintings" },
@@ -4273,6 +4274,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 										"LU_main.Dxr", "17dc83fcb87914cc55cfe3a6b6104dca", 23921856, 501),
 	MACGAME2("lifeuniverse", "Full", "Start Life (PPC)", "cf7d00bbabf0e5476195616940febf05", 104815,
 									 "LU_main.Dxr", "b3a548cd57f5129afac208e24463fa1d", 13234768, 501),
+
+	MACGAME1("lovedisk", "", "MAP/LOVEDISK", "b69f9cb79da512852ed383a1cfef14b9", 719005, 501),
 
 	MACGAME1("kidsbox", "", "KIDS BOX(PPC)", "e7ee6c4e4cf63575db94bf3fc433053d", 107863, 500),
 	WINGAME1t("kidsbox", "Normal", "KIDS_N.EXE", "7abed0fbe806404b5e4045927b293950", 1443095, 505),
