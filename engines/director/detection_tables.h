@@ -787,6 +787,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "mipeterwolf",		"～Music Island Vol.1～　\"ピーターと狼\"" },
 	{ "missihb",			"MISS Interactive Hard Boiled" },
 	{ "momotaro",			"日本語探検シリーズ『方言ももたろう』" },			// Nihongo Tanken Shirīzu: Hōgen Momotarō
+	{ "moworld",			"Reiko's Adventures in MO-World" },
 	{ "mukashibanashi",     "日本昔話" },										// Nihon Mukashi Banashi (Japanese Folk Tales)
 	{ "nihonchiri",       	"Visual日本地理" },									// Japan Geography
 	{ "niningashi",			"ににんがし" },
@@ -3301,6 +3302,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("moritaka", "", "WATARASE-BASHI", "c761bfe3a0865ca0f43cb5556230ed5b", 107527, Common::JA_JPN, 404),
 	PIPGAME1_l("moritaka", "", "Pippin Projector", "b708dcf9cdc19e6e186000ad93e41997", 73705, Common::JA_JPN, 404),
+
+	MACGAME1_l("moworld", "", "MO-World", "27519b873d23565470f627ad2f3d1b03", 321547, Common::JA_JPN, 400),
 
 	// Created by Fritsch & Friends MediaGroup, Babelsberg, Germany
 	// Found on In´side MULTIMEDIA: Das Computermagazin mit CD-ROM 07/96 by Tronic Media World, Hesse, Germany
