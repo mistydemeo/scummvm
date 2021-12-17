@@ -758,6 +758,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "henachoco03",		"難しい本を読むと眠くなる" },						// "Reading a Difficult Book Makes Me Sleepy"
 	{ "henachoco04",		"あの素晴らしい弁当を2度3度" },								// That Wonderful Bento 2 or 3 Times
 	{ "henachoco05",		"野犬ロデム" },								// Rodem the Wild
+	{ "henachoco06",		"蒸し蒸しチキンそり旅行" },								// Steamed Chicken Sled Trip
 	{ "henachoco08",		"おませなおませな屋台大作戦" },								// Omasena Omasena Stall Strategy
 	{ "henachoco09",		"ニセミジンコのうそひみつ" },								// The Secret Lie of Nisemijinko
 	{ "henachoco11", "スロプロウエスタン" }, // Slowpro Western
@@ -2978,6 +2979,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("henachoco05", "", "yaken", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
 	WINGAME1_l("henachoco05", "", "YAKEN.EXE", "1f9b0ef872de7b84063a53b2a1083c60", 2103629, Common::JA_JPN, 400),
+
+	MACGAME1_l("henachoco06", "", "musimusichikin", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
 
 	MACGAME1_l("henachoco08", "", "yataideomase", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
 
