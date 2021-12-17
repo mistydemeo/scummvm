@@ -913,6 +913,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "tri3dtrial",			"Tri-3D-Trial" },
 	{ "ukiukibgv",			"ウキウキ釣り天国 BGV" },							// Background Video? (Screen Saver)
 	{ "vcb",				"Virtual Cocktail Bar 200種類のカクテルのデータベース" },
+	{ "virtualmuseum",		"Virtual Museum" },
 	{ "xmaspresent",		"Christmas Present" },
 	{ "yokai",		        "真・百物語: 妖怪紳士録" },                         // Ma hyakumonogatari: Yōkai shinshiroku
 	{ "yokai200",	        "水木しげるの妖怪図鑑 傑作200選 -日本編1" },        // Mizuki Shigeru no Yokai Zukan Kessaku 200-sen Nihon-hen 1
@@ -3810,6 +3811,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("verttice", "v2.0", "DreamLight Verttice 2.0", "b7e69c37b7355022d400c14aa97c5d54", 512047, 404),
 
 	MACDEMO1_l("victorianpark", "Demo", "Victorian Park DEMO", "0d5f13d9321d36c23b63f229460928b4", 483443, Common::JA_JPN, 404),
+
+	MACGAME1_l("virtualmuseum", "", "Virtual Museum Vol.1", "8b138db44d4421cc7294a9dc792ccf1b", 503337, Common::JA_JPN, 403),
 
 	WINDEMO1("vote", "Demo", "VOTEDEMO.EXE", "4b8c50c375c348e2d46086e1cccdd407", 7679955, 404),
 
