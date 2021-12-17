@@ -759,6 +759,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "henachoco04",		"あの素晴らしい弁当を2度3度" },								// That Wonderful Bento 2 or 3 Times
 	{ "henachoco05",		"野犬ロデム" },								// Rodem the Wild
 	{ "henachoco06",		"蒸し蒸しチキンそり旅行" },								// Steamed Chicken Sled Trip
+	{ "henachoco07",		"うそつきと私" },								// Liar and Me
 	{ "henachoco08",		"おませなおませな屋台大作戦" },								// Omasena Omasena Stall Strategy
 	{ "henachoco09",		"ニセミジンコのうそひみつ" },								// The Secret Lie of Nisemijinko
 	{ "henachoco11", "スロプロウエスタン" }, // Slowpro Western
@@ -2981,6 +2982,13 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME1_l("henachoco05", "", "YAKEN.EXE", "1f9b0ef872de7b84063a53b2a1083c60", 2103629, Common::JA_JPN, 400),
 
 	MACGAME1_l("henachoco06", "", "musimusichikin", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
+
+	// Original filenames are '第１話' through '第５話'
+	MACGAME1_l("henachoco07", "Episode 1", "xn--jwzs62ach2g", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
+	MACGAME1_l("henachoco07", "Episode 2", "xn--jwzs62afh2g", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
+	MACGAME1_l("henachoco07", "Episode 3", "xn--jwzs62aih2g", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
+	MACGAME1_l("henachoco07", "Episode 4", "xn--jwzs62alh2g", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
+	MACGAME1_l("henachoco07", "Episode 5", "xn--jwzs62aoh2g", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
 
 	MACGAME1_l("henachoco08", "", "yataideomase", "3731a1d809be07929da1f5d691ee3c97", 290398, Common::JA_JPN, 402),
 
