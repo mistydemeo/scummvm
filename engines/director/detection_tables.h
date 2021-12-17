@@ -3268,6 +3268,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 								  "title", "88e717a623bc2690d84a1246e512eaff", 2646636, 404),
 	MACGAME2("mediaband", "v1.1", "xn--Meet MediaBand-yk6h", "17efee018a660458fae80de4364021ac", 483774,
 								  "title", "14a64b7999d909a23df7842cec65458c", 2752392, 404),
+	MACGAME2("mediaband", "v4.2", "Meet MediaBand", "1682231de376e5465240f6e4a7952072", 291988,
+								  "Main/Intro", "6f190b627f696ef29819c71682bd7057", 1055430, 403),
 	WINGAME1("mediaband", "v1.1", "MEDIABND.EXE", "0cfb9b4762e33ab56d656a0eb146a048", 717921, 404),
 
 	// Projector is 4.0 Demo from Lingo Workshop
