@@ -880,6 +880,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "keiri",				"経理入門" },										// Introduction to Accounting
 	{ "llla",				"Live Love Life AIDS" },
 	{ "mazebox",			"The Latest Works of MazeBox" },
+	{ "microphonefiend",	"Microphone Fiend" },
 	{ "mmedia11",			"Masters of Media: The Making of サクラ大戦" },			// Sakura Taisen
 	{ "moderntimes",		"Charles Chaplin in Modern Times" },
 	{ "mominoki",			"もみの木の下で ～ The Day of St.Claus" },			// Under the Fir Tree
@@ -4300,6 +4301,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Original Mac filename is Demonstraciä
 	// Found on Russian Max 3 CD from NRG
 	MACGAME1_l("max1max2", "Demo", "Demonstracia", "06ed90580400cd9e263525f84c8075fd", 705673, Common::RU_RUS, 500),
+
+	MACGAME1_l("microphonefiend", "8", "Microphone Fiend8", "bfd348abd981acae64c13d5e5e4d9540", 719785, Common::JA_JPN, 501),
+	MACGAME1_l("microphonefiend", "16", "Microphone Fiend16", "d8f16d8e1dbd01ebf1f74f028b16a126", 117830, Common::JA_JPN, 501),
 
 	// On hybrid CD with Joystick (France) covermount
 	// Original filenames use N° instead of No
