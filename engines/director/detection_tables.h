@@ -726,6 +726,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "ankh2",				"アンク 2 ツタンカーメンの謎" },
 	{ "ankh3",				"アンク 3" },
 	{ "apeodyssey",			"Ape Odyssey 2001" },
+	{ "aramata", 			"Aramata's Visual Wonderland" },
 	{ "atmarktown",			"Atmark Town" },
 	{ "bem",				"妖怪人間ベム 新たなる魂の迷宮" },					// Yokai Ningen Bemu
 	{ "bemtoybox",			"妖怪人間ベム データToyBox" },						// Bem Data Toy Box
@@ -2439,6 +2440,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINDEMO1("aol", "Demo", "AOL.EXE", "6fa7b1fce40c6edb7710d0550431b2df", 1426687, 404),
 
 	MACGAME1("applestore", "", "Apple Company Store", "19b7c96659c773e73b13986d06b28c5c", 774048, 404),
+
+	MACGAME1_l("aramata", "", "START", "0c7bbb4b24823e5ab871cb4c1d6f3710", 484095, Common::JA_JPN, 404),
+	WINGAME1t_l("aramata", "", "START.EXE", "bb031b7d7a57557636530e80b4c061b3", 747081, Common::JA_JPN, 404),
 
 	MACGAME1("arcofdoom", "", "Arc Player (4mb)", "ea553e3f3fa123ad38fa5249621e8c8b", 295426, 400),
 	MACDEMO1("arcofdoom", "Demo", "ArcDemo", "cdb27c916044ae4dceb4b7326063fa03", 301925, 400),
