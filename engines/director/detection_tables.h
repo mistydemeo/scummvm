@@ -666,6 +666,7 @@ static const PlainGameDescriptor directorGames[] = {
 	// French titles
 	{ "1contre100",			"1 contre 100" },
 	{ "affaires1",			"Affaires à suivre: L'Île diabolique" },
+	{ "alphabet_pacovska",  "Alphabet, d'après de livre de Kvēta Pacovskã"},
 	{ "boulebill",			"Boule et Bill: Au Voleur!" },
 	{ "boitearire",			"La boite a rire" },
 	{ "fg25ans",			"25 Ans! Le CD-ROM de Fluide Glacial" },
@@ -5248,6 +5249,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Japanese filename '着信メロディメーカー'
 	MACGAME1_l("allthelunar", "Luna no Chakushin Melody Maker", "xn--2bkuay9hyfd4f3fb5910fxrwe", "f670d62dfbf3f42c475b4f09c68f1888", 5839096, Common::JA_JPN, 701),
 	WINGAME1t_l("allthelunar", "Luna no Chakushin Melody Maker", "melody.exe", "f670d62dfbf3f42c475b4f09c68f1888", 5839096, Common::JA_JPN, 701),
+
+	MACGAME1_l("alphabet_pacovska", "", "30Mo", "0944b962ebb00f4b5d5149d220f8449b", 115966, Common::FR_FRA, 702),
+	WINGAME1t_l("alphabet_pacovska", "", "Alphabet.exe", "c14f54671c5274accf32d2558510cdbb", 1812440, Common::FR_FRA, 702),
 
 	WINDEMO1("artus1", "Demo", "artus.exe", "7c18c9a6af2694156bf09ed195c1ab09", 2595828, 702),
 
