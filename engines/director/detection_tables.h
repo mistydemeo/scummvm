@@ -432,6 +432,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "alice2ocean",		"From Alice to Ocean: Alone Across the Outback" },
 	{ "amhha",				"All My Hummingbirds Have Alibis" },
 	{ "amnesty",			"Amnesty Interactive" },
+	{ "artintact",			"artintact komplett" },
 	{ "aruba",				"Aruba Interactive" },
 	{ "athletics",			"International Athletics" },
 	{ "babylon5int",		"Babylon 5 Interactive" },
@@ -5572,6 +5573,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Published by Future Soft of Nasr City, Cairo
 	WINGAME1_l("anasheed", "", "Anasheed.exe", "e24d4bab978b1a5c2326d2c56cf4d781", 3595486, Common::AR_ARB, 800),
+
+	MACGAME1("artintact", "", "Start_Mac", "4ea5fc09f79eee6dded94dc40f303779", 214865, 800),
+	WINGAME1t("artintact", "", "start.exe", "e35fd9cafa74db33dca37e7e7cd63e43", 146931, 800),
 
 	MACGAME2("avrilletgo", "ECD", "Projector",	   "4ea5fc09f79eee6dded94dc40f303779", 194863,
 								  "movie.dxr",	   "6d0c0712fdd32cf1de489b4c152b2460", 50908119, 800),
