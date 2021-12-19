@@ -442,6 +442,9 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "beyondcyberpunk",	"Beyond Cyberpunk! A Do-It-Yourself Guide to the Future" },
 	{ "bht",				"A Brief History of Time: An Interactive Adventure" },
 	{ "bioflix",			"BioFlix" },
+	{ "blam",				"BLAM!" },
+	{ "blam2",				"BLAM! 2" },
+	{ "blam3",				"BLAM! 3" },
 	{ "blindrom",			"BlindRom 0.9" },
 	{ "bowie",				"JUMP: The David Bowie Interactive CD-ROM" },
 	{ "browser",			"Browser: Artopolis 97" },
@@ -1613,6 +1616,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// From Gahan Wilson's The Ultimate Haunted House CD
 	MACGAME1("bpmc", "", "Byron Preiss Catalog", "7f443f2e63fd497a9ad85b10dc880a91", 5208397, 313),
 
+	// Main disc is Hypercard; only this portion is Director
+	MACDEMO1("blam", "BLAM! Propaganda", "BLAM! Promotion!!", "7f443f2e63fd497a9ad85b10dc880a91", 646898, 313),
+
 	// Interactive book portion is Hypercard
 	MACGAME1("blindrom", "", "PLAY BLIND", "2ce360c9ea2da80a2c6d1040b0ad92dd", 384404, 310),
 
@@ -2518,6 +2524,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	WINDEMO2t("baseballhits", "Demo", "BASEBALL.EXE", "008d1690b0b764f8a75e4f4c6542b739", 3569928,
 									  "WINDEMO.DIR", "e8e44e90e25c0efe74ddb77df545db1e", 2958900, 400),
+
+	MACGAME1("blam2", "", "   BLAM!2-powermac", "71287376e445ab9c98f0d150bb0ed175", 60096, 404),
 
 	WINGAME1("blaster", "", "DEMO.EXE", "617725437da4d66c176a9e7011977097", 24300731, 400),
 
@@ -4046,6 +4054,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 								"INTRO.dxr", "09a572dd9a5346708a529eaa3a0df400", 432698, 500),
 
 	WINGAME1_l("bigmax", "nº10", "BIG32.EXE", "3460ad87d2ba57104e2810a77b53c220", 4539109, Common::PT_BRA, 500),
+
+	MACGAME1("blam3", "", "  BLAM!3ppc.prj", "8a093239a2bbfd73269bc70f873c69b8", 106887, 501),
 
 	MACGAME1("blender", "Volume 2.5", "Blender (PPC)", "f102e699371fd85eaf57606a1c0b1adc", 94329, 501),
 	MACGAME1("blender", "Volume 3.1", "Blender (PPC)", "013ce52c2d8fa0f004fe6d1118448a58", 108119, 501),
