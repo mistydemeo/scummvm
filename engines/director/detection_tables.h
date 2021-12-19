@@ -729,6 +729,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "apeodyssey",			"Ape Odyssey 2001" },
 	{ "aramata", 			"Aramata's Visual Wonderland" },
 	{ "atmarktown",			"Atmark Town" },
+	{ "banddamashii",		"バンド魂" }, // Band Damashii
 	{ "bem",				"妖怪人間ベム 新たなる魂の迷宮" },					// Yokai Ningen Bemu
 	{ "bemtoybox",			"妖怪人間ベム データToyBox" },						// Bem Data Toy Box
 	{ "bombreikochiba",		"千葉麗子 BOMB!" }, // Reiko Chiba - Bomb
@@ -4025,6 +4026,12 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME1("bananasfun", "",   "BIP32.EXE",      "1a7acbba10a7246ba58c1d53fc7203f5", 1410665, 501),
 	MACGAME1_l("bananasfun", "", "It's Fun Time!", "07f19d8ae16dd1ffab68540c78fa0b8b", 719743, Common::PT_BRA, 501),
 	MACGAME1_l("bananasfun", "", "It’s Fun Time!", "231d3041df162be4a0ddd36a74eb03b6", 719743, Common::SE_SWE, 501),
+
+	// Original filename is 'バンド魂'
+	MACGAME1_l("banddamashii", "", "xn--gdkn9hz648b", "2e75b0d7a218c71d5dd00a27eb755f00", 718756, Common::JA_JPN, 501),
+	// Decomposed variant filename
+	MACGAME1_l("banddamashii", "", "xn--2bka4l0a5pm493d", "2e75b0d7a218c71d5dd00a27eb755f00", 718756, Common::JA_JPN, 501),
+	WINGAME1t_l("banddamashii", "", "BANDAMA.EXE", "aa0a9072ef442a0f996bd8884273857d", 1709856, Common::JA_JPN, 501),
 
 	WINGAME1("barbssbubbles", "Screensaver", "BUBBLES.EXE", "77c85ac62fdb5a5f1ed40209ca88f78e", 1117695, 501),
 	WINGAME1("barbsskisses", "Screensaver", "KISSES.EXE", "77c85ac62fdb5a5f1ed40209ca88f78e", 1145437, 501),
