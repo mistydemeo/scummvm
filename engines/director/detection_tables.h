@@ -761,6 +761,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "gate1",				"the GATE I 王国「MU」への扉" },
 	{ "gate2",				"the GATE II 王国「MU」への扉" },
 	{ "gate3",				"the GATE III 王国「MU」への扉" },					// Gateway to the Kingdom of MU
+	{ "geraldmccoy",		"Detective Gerald McCoy" },
 	{ "granmarmalade",		"グラン・マーマレード・マジカル・ビレッジ" },
 	{ "henachoco",			"へなちょこダービー" },								// HenaChoco Derby
 	{ "henachoco02",		"サイテイバード" },								// Saitei Birds
@@ -2883,6 +2884,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME1_l("gate1", "", "THE_GATE.EXE", "dd0bb1a07ad5b5d4489ac8f54e6ada2e", 712014, Common::JA_JPN, 402),
 	WINGAME1_l("gate2", "", "THE_GATE.EXE", "0818b5c0ced885b5ebcef1bfd9523405", 711962, Common::JA_JPN, 402),
 	WINGAME1_l("gate3", "", "THE_GATE.EXE", "48f4e49459ad83330521457642875406", 712003, Common::JA_JPN, 402),
+
+	MACGAME1_l("geraldmccoy", "", "Gerald McCoy", "19a5add87e0382e9149cd7d95de25186", 308080, Common::JA_JPN, 402),
+	WINGAME1t_l("geraldmccoy", "", "G_MCCOY.EXE", "c9a6fb1d25b7ccd7e21cacbe1ecc2181", 739921, Common::JA_JPN, 404),
 
 	// Original German Mac filename is Mäusejagd
 	// Original multilingual Mac filename is Gröna Musikmössen
