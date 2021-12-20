@@ -745,6 +745,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "cutie10",   			"キューティ１０" },
 	{ "cookie", 			"Cookie's Bustle: 謎のボンボワールド"},					// Mysterious Bombo World
 	{ "cookieginger",		"Cookie & Ginger"},
+	{ "crouton",			"Croûton"},
 	{ "dan",				"ダン" },											// Dan
 	{ "djrom",				"The DJ-ROM: Da CD-Extra of Hip-Hop Music" },
 	{ "nendo",				"Digital Nendo" },
@@ -2652,6 +2653,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("cookieginger", "", "COOKIE", "17efee018a660458fae80de4364021ac", 484181, Common::JA_JPN, 404),
 	WINGAME1t_l("cookieginger", "", "COOKIE.EXE", "03f2a878ff04b2e1ad7549fc6895da56", 766213, Common::JA_JPN, 404),
+
+	// Mac version's executable is inside an installer
+	MACGAME1_l("crouton", "", "CROUTON F/CROUTON", "18f6634ce655067ddfaa413d3313515d", 484370, Common::JA_JPN, 404),
+	WINGAME1t_l("crouton", "", "CROUTON.EXE", "03f2a878ff04b2e1ad7549fc6895da56", 766817, Common::JA_JPN, 404),
 
 	// Rodney Alan Greenblat for Nick Games
 	// Windows version from Disc Inferno from APC magazine (Australia), Dec 1999
