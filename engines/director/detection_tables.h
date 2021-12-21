@@ -891,6 +891,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "fukuda",				"Fukuda Shigeo Retrospective Collection" },
 	{ "furbydentaku",		"ファービー電卓" },								    // Furby Calculator
 	{ "futarinoryori",		"ふたりの料理物語" },								// A Tale of Two Chefs
+	{ "futurepromotion",	"Towa Tei: Future Promotion" },
 	{ "goalrush1",			"Goal Rush!!" },
 	{ "goalrush2",			"Goal Rush!! 2 ～戦術分析編～" },
 	{ "heididentaku1",		"ハイジ電卓１" },
@@ -2903,6 +2904,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Original filename is ・ふたりの料理物語
 	MACDEMO1_l("futarinoryori", "Demo", "A Tale of Two Chefs", "22815cf659b911c4e07d0015cac5d98f", 301937, Common::JA_JPN, 400),
+
+	MACGAME1("futurepromotion", "", "FUTURE",  "2885d9aacbeaecf4a27a7978a6b55c9b", 290474, 400),
+	WINGAME1t("futurepromotion", "", "FUTURE.EXE",  "a8e1020f952480d98920b1c7cc08644d", 6099243, 400),
 
 	// Developed by De Agostini Multimedia, Novara, Piedmont, Italy (1995)
 	// Original Italian title is Fuzzy e Floppy: Il mistero dell'ape d'oro
