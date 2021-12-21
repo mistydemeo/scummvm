@@ -885,6 +885,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "curiocity",		    "キュリオシティ" },
 	{ "ddoa2",				"アイドル探偵ＹＯＵ＆ＭＹ" },						// Idol Tantei (Doki Doki On-air Drama Series)
 	{ "delphinokioku",		"デルフォイの記憶" },						// Delphi Memory
+	{ "ebisu",				"カンタンな人生の法則" }, // Yoshikazu Ebisu's Easy Laws of Life
 	{ "eguchi",				"江口寿史 CG MUSEUM" },								// Hisashi Eguchi
 	{ "fototune",			"FotoTune Multimedia Show" },
 	{ "furbydentaku",		"ファービー電卓" },								    // Furby Calculator
@@ -1713,6 +1714,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Original filename is 東脳スタート
 	MACGAME1_l("easternmind", "", "xn--zckm1a5qp59wok6a", "276bee761e48a6fd709df77d5c2f60dd", 395037, Common::JA_JPN, 313),
+
+	// Original filename is '人生の法則'
+	// Windows version is not Director.
+	MACGAME1_l("ebisu", "", "xn--u9jy52g7nc5q2bdxi", "f5277c53bacd27936158dd3867e587e2", 392209, Common::JA_JPN, 311),
 
 	// 1994 demo for Millie's Math House, Thinkin' Things, Kid Desk
 	MACGAME1_l("edmark", "", "EDMARK", "276bee761e48a6fd709df77d5c2f60dd", 392693, Common::JA_JPN, 313),
