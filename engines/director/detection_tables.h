@@ -4242,7 +4242,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 						   "MAININT",	  "1e995592236894b843c3853906bbee1d", 2935876, 500),
 
 	// Original Mac filename is 江口寿史
-	MACGAME1_l("eguchi", "", "Hisashi Eguchi", "552992fb31c736ca67ffd403096596d6", 719909, Common::JA_JPN, 501),
+	MACGAME1_l("eguchi", "", "xn--6or4a778bbur", "552992fb31c736ca67ffd403096596d6", 719653, Common::JA_JPN, 501),
 	WINGAME1_l("eguchi", "", "EGU32.EXE", "38b75ecdedf662326fe4931a68ae60cd", 1410078, Common::JA_JPN, 501),
 
 	MACGAME1_l("epson96", "", "EPSON'96", "c7de2891be2a39e6552807db386faae6", 703181, Common::JA_JPN, 505),
