@@ -326,6 +326,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "pyst",				"Pyst" },
 	{ "pyst2",				"Driven: The Sequel to Pyst" },
 	{ "pystmake",			"The Making of Pyst" },
+	{ "quantumgate2",		"The Vortex: Quantum Gate II" },
 	{ "rainbowfish1",		"Rainbow Fish: The most beautiful fish in the ocean!" },
 	{ "rainbowfish2",		"Rainbow Fish and the Whale" },
 	{ "rhem1",				"Rhem" },
@@ -749,6 +750,9 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "crouton",			"Croûton"},
 	{ "dan",				"ダン" },											// Dan
 	{ "djrom",				"The DJ-ROM: Da CD-Extra of Hip-Hop Music" },
+	{ "digitalboy1",		"Digital Boy CD-ROM Vol. 1" },
+	{ "digitalboy2",		"Digital Boy CD-ROM Vol. 2" },
+	{ "digitalboy3",		"Digital Boy CD-ROM Vol. 3" },
 	{ "nendo",				"Digital Nendo" },
 	{ "earthtia",			"アースティアサーガ ラーサーレジェンド" },					// Earthtia Saga: Larthur's Legend
 	{ "epson96",			"I Love EPSON '96 シェイプUPガールズ" },				// Shape Up Girls
@@ -804,6 +808,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "mukashibanashi",     "日本昔話" },										// Nihon Mukashi Banashi (Japanese Folk Tales)
 	{ "nihonchiri",       	"Visual日本地理" },									// Japan Geography
 	{ "niningashi",			"ににんがし" },
+	{ "noahsark",			"Noah's Ark" },
 	{ "nonta",				"のんたくんとゆかいななかまたち" },					// Nonta-kun and his Wonderful Friends
 	{ "novacity",			"Nova City" },
 	{ "orgotto",			"Orgotto" },
@@ -867,8 +872,10 @@ static const PlainGameDescriptor directorGames[] = {
 	// Japanese art and multimedia reference
 	{ "a5tours",			"A5 Tours: Special Data Library" },
 	{ "allthelunar",		"オール・ザ・ルナ LUNAR -ハイパーアプリケーションズ-" }, // All the Lunar: Hyper Applications
+	{ "angelolatrie", 		"Jean Cocteau: Angélolatrie & Phénixologie" },
 	{ "atmos", "Atmos Tetsujin Re-Mix" }, // Bundled with the Windows/Mac release of Tetsujin Returns, aka Iron Angel of the Apocalypse: The Return
 	{ "aquaplanet",			"Aquaplanet" },
+	{ "aquazone",			"Aquazone" },
 	{ "asylum300",			"Asylum 300" },
 	{ "bakavideodrug", 		"バカビデオドラッグ" }, // Baka Video Drug
 	{ "chunchunworld",		"Chun-Chun World" },
@@ -910,6 +917,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "pbtoilet2",	        "PerfectBLUE TOILET2" },
 	{ "pepperon",	        "ペペロン村の四季" },			// Four Seasons in Pepperon Village, aka Valmaison au fil des saisons, aka Livet i Pepperon
 	{ "perfectblue",        "Perfect Blue そらいろ★ナイト" },
+	{ "pyrethrum1",			"除虫菊Vol.1" },
 	{ "sakurascr",			"さくらのSCRセレクタ" },							// Sakura's SCR Selector
 	{ "satodesign",			"The Art of Computer Designing: A Black and White Approach" },
 	{ "satohomosexual",		"Homosexual" },
@@ -2442,6 +2450,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACDEMO2_l("angelgate", "Demo", "DEMO", 	 "bcd3c718db258701496b3c5bcb827ef2", 483415,
 									"START",	 "66600069c64ac7938eba0531ea1c1537", 10482, Common::JA_JPN, 404),
 
+	MACDEMO1_l("angelolatrie", "Autodemo", "COCTEAU", "8b138db44d4421cc7294a9dc792ccf1b", 501681, Common::JA_JPN, 404),
+	WINDEMO1t_l("angelolatrie", "Autodemo", "C_WIN.EXE", "2ddf245ee6775e5b22413ae02fa539a9", 702249, Common::JA_JPN, 404),
+
 	WINGAME1_l("ankh1", "", "ANKH.EXE", "ca3b036aed6f38beb3ee762e171b663e", 746959, Common::JA_JPN, 404),
 
 	// Original filename is Ants Afire!™ 1.2
@@ -2452,6 +2463,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINDEMO1("aol", "Demo", "AOL.EXE", "6fa7b1fce40c6edb7710d0550431b2df", 1426687, 404),
 
 	MACGAME1("applestore", "", "Apple Company Store", "19b7c96659c773e73b13986d06b28c5c", 774048, 404),
+
+	MACDEMO1_l("aquazone", "Demo (Version 1.5)", "AZ demo", "97474208c44c78f26bef8b2011d341aa", 487303, Common::JA_JPN, 404),
+	WINDEMO1t_l("aquazone", "Demo", "AZDEMO.EXE", "4644e6e5015ed2c7e4a30619c5efc464", 4011337, Common::JA_JPN, 404),
 
 	MACGAME1_l("aramata", "", "START", "0c7bbb4b24823e5ab871cb4c1d6f3710", 484095, Common::JA_JPN, 404),
 	WINGAME1t_l("aramata", "", "START.EXE", "bb031b7d7a57557636530e80b4c061b3", 747081, Common::JA_JPN, 404),
@@ -2513,6 +2527,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1_l("bem", "", "xn--f9jwam9iq41vctmzz3e04s", "0c7bbb4b24823e5ab871cb4c1d6f3710", 484219, Common::JA_JPN, 404),
 	MACGAME1_l("bemtoybox", "", "xn--ToyBox-hu4e9b90a", "0c7bbb4b24823e5ab871cb4c1d6f3710", 484323, Common::JA_JPN, 404),
 
+	// Original filename is 'BD-J/Demo'
+	MACDEMO1_l("betterd", "Demo", "xn--BD-JDemo-na47b", "17efee018a660458fae80de4364021ac", 487275, Common::JA_JPN, 404),
 	MACGAME1_l("betterd", "", "Better Dead 12 megs", "17efee018a660458fae80de4364021ac", 486973, Common::JA_JPN, 404),
 	WINGAME1_l("betterd", "", "BETTERD.EXE", "e484d23ce2b6750d9e7e4a7b32632f47", 696877, Common::JA_JPN, 404),
 
@@ -2726,6 +2742,17 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("dieveteranen", "", "Die Veteranen", "a33b948ad52edc74a4439e176a3ba8bf", 1929826, Common::DE_DEU, 403),
 	WINGAME1t_l("dieveteranen", "", "VETERANS.EXE", "a00b43e9262390ecf5028e057e6e0633", 692689, Common::DE_DEU, 400),
+
+	MACGAME1_l("digitalboy1", "", "D_BOYMAC", "27519b873d23565470f627ad2f3d1b03", 501763, Common::JA_JPN, 404),
+	WINGAME1t_l("digitalboy1", "", "D_BOYWIN.EXE", "fe921a468b2e8d6430833f8cf447171f", 2489733, Common::JA_JPN, 404),
+	MACGAME2_l("digitalboy2", "", "D_BOYMAC", "bab5a4a4eb31642ce7f2e89038a95ef1", 501763,
+		"BOOKMARK.HTM", "2df648dbdf24b16880b7a14c1853c8dc", 2308,
+		Common::JA_JPN, 404),
+	WINGAME1t_l("digitalboy2", "", "D_BOYWIN.EXE", "080f123110205c26c0941756f2c255ae", 742873, Common::JA_JPN, 404),
+	MACGAME2_l("digitalboy3", "", "D_BOYMAC", "bab5a4a4eb31642ce7f2e89038a95ef1", 501763,
+		"HTML/ANOTHER.HTM", "9c03bee25458afb918549a89f6ba8b70", 2692,
+		Common::JA_JPN, 404),
+	WINGAME1t_l("digitalboy3", "", "D_BOYWIN.EXE", "983157668ccbadfb35814ad897a46266", 742873, Common::JA_JPN, 404),
 
 	MACDEMO1_l("dirmacromedia", "v4.0.3J Demo", "Director 4.0 Demo", "e258089af01c8233db77039828cc83f8", 1488951, Common::JA_JPN, 403),
 
@@ -3161,6 +3188,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACDEMO1("jman2", "Final Demo", "Buried in Time Demo", "cc3321069072b90f091f220bba16e4d4", 292731, 400),
 	MACDEMO1("jman2", "Gallery", "BIT Gallery", "01be45e7241194dad07938e7059b88e3", 484284, 400),
 	MACDEMO1("jman2", "Overview", "BIT Overview", "01be45e7241194dad07938e7059b88e3", 484284, 400),
+	MACDEMO1_l("jman2", "10/05/95 Demo", "B.I.T Demo PPC", "950744d1d93c7a137d66ab6fec146070", 60665, Common::JA_JPN, 404),
+	WINDEMO1t_l("jman2", "10/02/95 Demo", "BITDEMO.EXE", "649a48ec679574c4df376c62e091f844", 727569, Common::JA_JPN, 404),
 
 	MACGAME1("jmmd", "", "Just Me & My Dad", "ea646eccc9a53f44ce082459d4809a06", 486966, 400),
 
@@ -3465,6 +3494,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("nmm", "",		"Adam Player.ppc", "df028c9e22b2dec8f7ffeee28ca7b991", 57726, 404),
 	MACDEMO1("nmm", "Demo", "NMM Demo",		   "17efee018a660458fae80de4364021ac", 481482, 404),
 
+	MACDEMO1_l("noahsark", "Demo", "GO", "97474208c44c78f26bef8b2011d341aa", 484067, Common::JA_JPN, 404),
+	WINDEMO1t_l("noahsark", "Demo", "GO.EXE", "bf8926c2275b8e83f237812a18964dbd", 747005, Common::JA_JPN, 404),
+
 	WINGAME1("noddytoytown", "", "NODDY.EXE", "d16d57c823205e32759e1771bfdbb330", 4505770, 404),
 
 	WINDEMO1("noir", "Demo", "NOIRDEMO.EXE", "a9690aa58c6da36b7a6bf88fd4c81ffc", 10949309, 404),
@@ -3550,6 +3582,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("pfarrypuzzle", "Old Camera", "Old Camera Puzzle", "cdb27c916044ae4dceb4b7326063fa03", 304196, 400),
 	MACGAME1("pfarrypuzzle", "Sunflower", "Sunflower Puzzle", "cdb27c916044ae4dceb4b7326063fa03", 304196, 400),
 
+	MACDEMO1_l("phantplanet", "Demo", "PHANTASMAGORIA demo", "dc5a87dda7a0daf46604515f7d2cca66", 291960, Common::JA_JPN, 403),
+	WINDEMO1t_l("phantplanet", "Demo", "PHANDEMO.EXE", "56dc12f841f627be652d23e457875f61", 692923, Common::JA_JPN, 404),
 	MACGAME1_l("phantplanet", "Hybrid release", "phantasmagoria_PPC", "602e61f10c158183218405dd30a09b3f", 60352, Common::JA_JPN, 400),
 	WINGAME1_l("phantplanet", "Hybrid release", "PHANTAS.EXE", "c2dd62dd0f9488ae8102970553eff170", 690449, Common::JA_JPN, 400),
 
@@ -3602,6 +3636,16 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// original file name is psych™
 	MACGAME1("psych", "v1.0.5", "psych", "85dfccc89072ba781bc90783998c3937", 284622, 403),
 	MACGAME1("psych", "v2.0.1", "psych", "1e0f16853ec1652a51ade41823405440", 406450, 403),
+
+	// Original filename is '除虫菊Vol.1 Demo(PPC)'
+	MACDEMO1_l("pyrethrum1", "Demo", "xn--Vol.1 Demo(PPC)-u825b41x5o6e", "422270206b9bd6aff43bbe95047f6ce9", 60665, Common::JA_JPN, 404),
+	WINDEMO1t_l("pyrethrum1", "Demo", "VOL1DEMO.EXE", "bbe7ddbe439266f2ed57b9723f8a5c6c", 746843, Common::JA_JPN, 404),
+
+	// Original filename is 'ボルテックス'
+	MACDEMO1_l("quantumgate2", "Demo",	 "xn--pckua2al3iyd", "b7e69c37b7355022d400c14aa97c5d54", 484067, Common::JA_JPN, 404),
+	// Decomposed variant of the above filename
+	MACDEMO1_l("quantumgate2", "Demo",	 "xn--2bk1b4a0bo8jve", "b7e69c37b7355022d400c14aa97c5d54", 484067, Common::JA_JPN, 404),
+	WINDEMO1t_l("quantumgate2", "Demo",	 "VORTEX.EXE", "11627f883100bb7cf5bb232a2322941f", 739889, Common::JA_JPN, 404),
 
 	MACDEMO1_l("racingdays", "Demo", "Racing Days World", "fbe75e9140b23cf5bb2f5fd6f7ce8e88", 482059, Common::JA_JPN, 404),
 
