@@ -1783,7 +1783,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 							   "GA00.MMM",	 "59c190365066ac13f9cd7721f64db85b", 324388, 310),
 	FMTGAME2_l("gadget", "",   "GADGET.EXE", "2cc9e2dacb90fb130f6ee9519b66c5a8", 369009,
 							   "GA00.MMM",	 "e32b3dd1a4c4e6c3899b5d2adb21d24a", 324390, Common::JA_JPN, 310),
-	MACDEMO1("gadget", "Demo", "GADGET",	 "f5277c53bacd27936158dd3867e587e2", 390365, 311),
+	MACDEMO1("gadget", "Demo", "GADGET",	 "f5277c53bacd27936158dd3867e587e2", 390109, 311),
 	WINDEMO1("gadget", "Demo", "GADGET.EXE", "b439d48205f27ff9431b1f1b0b841340", 684203, 311),
 
 	// Original filename is 我流競馬ｵｰﾄﾃﾞﾓ
@@ -4277,7 +4277,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 	PIPGAME1("gadget", "", "GADGET", "d7e907d3933869f055ae59774c87f501", 111000, 501),
 
 	MACGAME1("gadgetpaf", "",	"GADGET -Past as Future- (Disc1)", "3b96e0a903130cf68e6f8362bb4d096c", 178907, 501),
-	MACGAME1_l("gadgetpaf", "", "GADGET -Past as Future- (Disc1)", "4b2213a9fb04f390ec074c54b916370d", 113425, Common::JA_JPN, 501),
+	MACGAME1_l("gadgetpaf", "", "GADGET -Past as Future- (Disc1)", "4b2213a9fb04f390ec074c54b916370d", 113169, Common::JA_JPN, 501),
 	WINGAME2("gadgetpaf", "",	"GADGET.EXE", "1a7acbba10a7246ba58c1d53fc7203f5", 1411507,
 								"TEXT_E.Cxt", "5f14330705974a22deb9a12cd8ae6e79", 691046, 501),
 	WINGAME2_l("gadgetpaf", "", "GADGET.EXE", "1a7acbba10a7246ba58c1d53fc7203f5", 1411507,
