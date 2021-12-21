@@ -2529,7 +2529,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Original filename is 'BD-J/Demo'
 	MACDEMO1_l("betterd", "Demo", "xn--BD-JDemo-na47b", "17efee018a660458fae80de4364021ac", 487275, Common::JA_JPN, 404),
-	MACGAME1_l("betterd", "", "Better Dead 12 megs", "17efee018a660458fae80de4364021ac", 486973, Common::JA_JPN, 404),
+	MACGAME1_l("betterd", "", "Better Dead 12 megs", "17efee018a660458fae80de4364021ac", 486717, Common::JA_JPN, 404),
 	WINGAME1_l("betterd", "", "BETTERD.EXE", "e484d23ce2b6750d9e7e4a7b32632f47", 696877, Common::JA_JPN, 404),
 
 	// Demo is from covermount of PC Guide (UK) Feb 1997
