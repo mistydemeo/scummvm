@@ -788,6 +788,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "ios",   				"iós" },
 	{ "intro", 				"INTRO꞉ New Cultural EDGE Ver1.0" },
 	{ "intro1", 			"INTRO No. 1 1994" },
+	{ "intro2", 			"INTRO No. 2 1994" },
 	{ "junglepark",			"Jungle Park" },
 	{ "jyajya",				"Jya jya" },										// HyperCard with D3 movie
 	{ "karuta",				"「フ・ジ・ワ・ラ・テ・イ・カ」の百人一首: かるたでおじゃる" },	// "Fu Ji Wa Ra Te I Ka" no Hyakunin Isshu: Karuta de Ojaru
@@ -1854,6 +1855,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 										  "1.Note",    "9afa1fce2f0f999e00af7d32cb8bd82d", 4946, Common::JA_JPN, 311),
 
 	MACDEMO1_l("intro", "", "xn--w8jm4fv92r", "f5277c53bacd27936158dd3867e587e2", 392314, Common::JA_JPN, 311),
+
 	WINGAME1t_l("intro1", "", "INTRO_01.EXE", "fe7c54b4af5508ef7378474c7e909a2b", 370007, Common::JA_JPN, 311),
 
 	// Original filename is 犬組デモ
@@ -3148,6 +3150,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Also launches three other projectors on disc, including some D3 and D5
 	MACGAME1("interactivemagic", "", "Mac Interactive Magic", "337c94c66b435e075a2d7f94b3cffc49", 483746, 404),
+
+	MACGAME1_l("intro2", "", "Intro_02", "0666ae690e459d3d0d91800ebd94de46", 290398, Common::JA_JPN, 402),
+	WINGAME1t_l("intro2", "", "INTRO_2.EXE", "bbca5270c1b88a67e5f05f498ef61114", 1531397, Common::JA_JPN, 400),
 
 	// Original filename is チュートリアル
 	MACDEMO1_l("inposition", "Tutorial", "Tutorial", "77f4098988d5386794d1530065f514cd", 305533, Common::JA_JPN, 400),
