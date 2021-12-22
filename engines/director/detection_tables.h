@@ -892,6 +892,9 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "furbydentaku",		"ファービー電卓" },								    // Furby Calculator
 	{ "futarinoryori",		"ふたりの料理物語" },								// A Tale of Two Chefs
 	{ "futurepromotion",	"Towa Tei: Future Promotion" },
+	{ "gasbook",			"GASBOOK" },
+	{ "gasbook2",			"GASBOOK 002" },
+	{ "gasbook5",			"GASBOOK 5: Paradise" },
 	{ "goalrush1",			"Goal Rush!!" },
 	{ "goalrush2",			"Goal Rush!! 2 ～戦術分析編～" },
 	{ "heididentaku1",		"ハイジ電卓１" },
@@ -4285,6 +4288,11 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1("gamingmegapac", "", "Gaming MegaPac", "b861188374e80b1184e7f96dcab4fc9b", 719261, 501),
 
+	MACGAME1_l("gasbook", "", "VOL1_10M", "5a97d1b69b1cac7dd335c32a297c281b", 742542, Common::JA_JPN, 501),
+	WINGAME1t_l("gasbook", "", "GAS32.EXE", "cc7b111dfaa7c7534c21b7bde144fa03", 1407638, Common::JA_JPN, 501),
+
+	MACGAME1_l("gasbook2", "", "GASBOOK 2", "73b69ba46fc63ad964cd7119e7f04c1b", 723046, Common::JA_JPN, 501),
+
 	// Creators make heads to be used in the full games
 	MACGAME1("getaheadmath", "",	"Math Heads (PPC)",	  "b6618c98b209ba70ed7ae7e85e7306ef", 107473, 501),
 	MACGAME1("getaheadstrat", "",	"Strategy Heads",	  "f5d1590da086b496507871f12382e973", 719456, 501),
@@ -4980,6 +4988,43 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME2_l("garygadget2", "", "Game",                    "1d9149b9745e35ef93ed4cdf08ec3af7", 1030361,
 								  "StartCD.dxr",             "07c672f1c05c4c12ac6abbb371a0ee1f", 24053, Common::NL_NLD, 600),
 	WINGAME1_l("garygadget2", "", "Willy2.exe",				 "d62438566e44826960fc16c5c23dbe43", 1507905, Common::DE_DEU, 650),
+
+	// Content from the first disc, 'Side 1'
+	MACGAME1_l("gasbook5", "Antirom", "fruitpencer", "2bcd01161eb741dcf9506dc7432d1d7c", 1035204, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Antirom", "fruitpencer.exe", "7ac2da9ff1093d6a8c9c926c6f831c17", 1910435, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "Gorgerous", "GORGEROUS", "2bcd01161eb741dcf9506dc7432d1d7c", 1034296, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Gorgerous", "GORGEROUS.exe", "624edbe33b963b3f78f070be722dafa0", 1910439, Common::JA_JPN, 602),
+	// Original filename 'スーパーミルクちゃん'
+	MACGAME1_l("gasbook5", "Hideyuki Tanaka", "xn--h9j8c2b3f1byi0d7dygb", "2bcd01161eb741dcf9506dc7432d1d7c", 1035204, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Hideyuki Tanaka", "SUPERMILK.exe", "af41be23b3ea55a58169c6405895f33f", 1910455, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "Imaitoons", "SPIDEAD", "2bcd01161eb741dcf9506dc7432d1d7c", 1032968, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Imaitoons", "SPIDEAD.exe", "061d7a8d9ee9bc04bf19bf8e581808d0", 1710679, Common::JA_JPN, 650),
+	// Original filename '%20' (yeah, actually)
+	MACGAME1_l("gasbook5", "Jodi", "xn--20-da8l", "9b791fba37ea0eb1bc9717ddd2478cba", 1032378, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Jodi", "xn--20.exe-ha20a", "6a5e3badb1368582af28dfb1db1f9c56", 1876545, Common::JA_JPN, 602),
+	// Original filename is a single tabstop
+	MACGAME1_l("gasbook5", "Katsuki Tanaka", "KATSUKI TANAKA/xn--p6j", "2bcd01161eb741dcf9506dc7432d1d7c", 1035232, Common::JA_JPN, 602),
+	// Original filename is 'マー王王.exe'
+	WINGAME1t_l("gasbook5", "Katsuki Tanaka", "xn--.exe-4s4cygl107ba", "567064352203f3e36f060d7b7bfbdf04", 1910457, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "Sistema Solar Technologies Inc.", "xn--Sistema Solar Technologies Inc.-", "34479398d80e2af650174fdd1f3a7d3e", 1035232, Common::JA_JPN, 602),
+	// Content from the second disc, 'Side 2'
+	MACGAME1("gasbook5", "DOTMOV", "DOTMOV", "2bcd01161eb741dcf9506dc7432d1d7c", 1035232, 602),
+	WINGAME1t("gasbook5", "DOTMOV", "DOTMOV.exe", "554c457a6189a433b28bd887306e6e58", 1911412, 602),
+	MACGAME1_l("gasbook5", "FutureFarmers", "FutureFarmers", "2bcd01161eb741dcf9506dc7432d1d7c", 1034324, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "FutureFarmers", "FutureFarmers.exe", "44296bf74ce4896ccbe1e2c7a322eff2", 1910449, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "groovisions", "GRV0911", "2bcd01161eb741dcf9506dc7432d1d7c", 1034256, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "groovisions", "GRV0911.exe", "d82aa9f3a6b02bd82eb0b0e8fe75e128", 1910447, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "Ichiro Tanida", "Ichiro Tanida", "2bcd01161eb741dcf9506dc7432d1d7c", 1034296, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Ichiro Tanida", "ICHIRO_TANIDA.exe", "e405783a91d8ffa261d4c792eeb5bed4", 1910437, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "Fontrom Volume 2", "FONTROM2", "078483b4b9b3a88bcf2c322529e88bfb", 1035296, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Fontrom Volume 2", "FONTROM2.exe", "690b272f3251feb2e65c2efa40000461", 1710689, Common::JA_JPN, 602),
+	// Original filename is a series of spaces and tabs
+	MACGAME1_l("gasbook5", "patterns for modernities", "xn-- -caaaaabaa6ebbbbcbb", "2bcd01161eb741dcf9506dc7432d1d7c", 1032968, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "patterns for modernities", "pfm.exe", "229bf06d879da191478b26c447ef2b46", 1910453, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "volumeone", "volumeone", "2bcd01161eb741dcf9506dc7432d1d7c", 1034324, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "volumeone", "volumeone.exe", "0d2812c175b45b7fab3479004e4d8624", 1826285, Common::JA_JPN, 602),
+	MACGAME1_l("gasbook5", "Tota Chris", "start!!", "50fe84424f7945696d8c0ae98e4658a5", 1035232, Common::JA_JPN, 602),
+	WINGAME1t_l("gasbook5", "Tota Chris", "CarbonicWater.exe", "b982146caa0bad2b4f85750a1f909da3", 1786590, Common::JA_JPN, 602),
 
 	WINDEMO1("generations", "v4.2 Demo", "GEN95.EXE", "a593079aecf5bd938ce75264cac24b2d", 15646702, 600),
 
