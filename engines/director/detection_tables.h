@@ -895,6 +895,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "gasbook",			"GASBOOK" },
 	{ "gasbook2",			"GASBOOK 002" },
 	{ "gasbook5",			"GASBOOK 5: Paradise" },
+	{ "glassyocean",		"Glassy Ocean: original graphics & music" },
 	{ "goalrush1",			"Goal Rush!!" },
 	{ "goalrush2",			"Goal Rush!! 2 ～戦術分析編～" },
 	{ "heididentaku1",		"ハイジ電卓１" },
@@ -4310,6 +4311,12 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME1("giggletour", "", "WRLDTR32.EXE", "3460ad87d2ba57104e2810a77b53c220", 1393973, 500),
 	MACDEMO1("giggletour", "Trailer", "World Tour Trailer", "08d6f6e39fbd8388faf57f602acaebcc", 705673, 500),
 	WINDEMO1("giggletour", "Trailer", "WRLD95.EXE", "3460ad87d2ba57104e2810a77b53c220", 4262595, 500),
+
+	// Original filename is 'たむらしげる原画集クジラの跳躍'
+	MACGAME1_l("glassyocean", "", "xn--18jjx6d7d8bq20axc8y5662a7j1dsf3cv0b8v9c", "8f4da7096fa8725ad3ed3153811c9e38", 719664, Common::JA_JPN, 501),
+	// Decomposed variant
+	MACGAME1_l("glassyocean", "", "xn--08jlx6d7d8bq5ib3t8cv3a0327avlsefrrdo9bit3d", "285baf96a2c5333603f23e3ff8ef7940", 4718, Common::JA_JPN, 501),
+	WINGAME1t_l("glassyocean", "", "START.EXE", "c5dcc03aca7e0bed95844afdd86f866c", 1410529, Common::JA_JPN, 501),
 
 	// Green Eggs and Hamulator mini-game
 	// Demo for a Living Books game that is supported in MOHAWK engine
