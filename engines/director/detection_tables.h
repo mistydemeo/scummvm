@@ -783,6 +783,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "horrortour2",		"Zeddas: Horror Tour 2" },
 	{ "horrortour3",		"ラビラーント" },									// Labyrinthe
 	{ "incarnatia",   		"Incarnatia" },
+	{ "ganguten",			"インタラクティブ玩具店" }, // Interactive Toy Store
 	{ "inugumi",   			"犬組" },
 	{ "ios",   				"iós" },
 	{ "intro", 				"INTRO꞉ New Cultural EDGE Ver1.0" },
@@ -4977,6 +4978,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Contains previews for educational and religious products for children and adults
 	// Miscellaneous section contains an art package and an encyclopedia on pregnancy and birth
 	WINGAME1_l("futsoft", "", "fs_demo.exe", "a593079aecf5bd938ce75264cac24b2d", 2091687, Common::AR_ARB, 600),
+
+	WINGAME1t("ganguten", "", "GANGU.exe", "5aaa037ac67c88fbdcc878e63325222d", 1515326, 602),
 
 	MACGAME1_l("garage", "",  "Garage",		"e5ed4533b25be47b708bb1245550cb2c", 118562, Common::JA_JPN, 650),
 	WINGAME2t("garage",   "", "Garage.exe", "8e13d7be0966107e030f3ad7abf0c580", 1516264,
