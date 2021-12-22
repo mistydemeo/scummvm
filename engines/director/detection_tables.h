@@ -809,6 +809,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "momotaro",			"日本語探検シリーズ『方言ももたろう』" },			// Nihongo Tanken Shirīzu: Hōgen Momotarō
 	{ "moworld",			"Reiko's Adventures in MO-World" },
 	{ "mukashibanashi",     "日本昔話" },										// Nihon Mukashi Banashi (Japanese Folk Tales)
+	{ "murphystv",			"Murphy's TV" },
 	{ "nihonchiri",       	"Visual日本地理" },									// Japan Geography
 	{ "niningashi",			"ににんがし" },
 	{ "noahsark",			"Noah's Ark" },
@@ -3404,6 +3405,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	PIPGAME1_l("moritaka", "", "Pippin Projector", "b708dcf9cdc19e6e186000ad93e41997", 73705, Common::JA_JPN, 404),
 
 	MACGAME1_l("moworld", "", "MO-World", "27519b873d23565470f627ad2f3d1b03", 321547, Common::JA_JPN, 400),
+
+	WINGAME1t_l("murphystv", "", "MURPHY.EXE", "8614c962ec56d95d8a0b602621661bcd", 742693, Common::JA_JPN, 404),
 
 	// Created by Fritsch & Friends MediaGroup, Babelsberg, Germany
 	// Found on In´side MULTIMEDIA: Das Computermagazin mit CD-ROM 07/96 by Tronic Media World, Hesse, Germany
