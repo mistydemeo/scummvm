@@ -4979,7 +4979,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Miscellaneous section contains an art package and an encyclopedia on pregnancy and birth
 	WINGAME1_l("futsoft", "", "fs_demo.exe", "a593079aecf5bd938ce75264cac24b2d", 2091687, Common::AR_ARB, 600),
 
-	WINGAME1t("ganguten", "", "GANGU.exe", "5aaa037ac67c88fbdcc878e63325222d", 1515326, 602),
+	// Original filename is 'インタラクティブ玩具店'
+	MACGAME1_l("ganguten", "", "xn--dckb7a1dsbzgyf6cy650b9o1ahp2c", "d0bb81dd635d881620e56937b3a97d05", 118590, Common::JA_JPN, 602),
+	WINGAME1t_l("ganguten", "", "GANGU.exe", "5aaa037ac67c88fbdcc878e63325222d", 1515326, Common::JA_JPN, 602),
 
 	MACGAME1_l("garage", "",  "Garage",		"e5ed4533b25be47b708bb1245550cb2c", 118562, Common::JA_JPN, 650),
 	WINGAME2t("garage",   "", "Garage.exe", "8e13d7be0966107e030f3ad7abf0c580", 1516264,
