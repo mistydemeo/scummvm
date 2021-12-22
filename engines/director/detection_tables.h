@@ -916,6 +916,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "moderntimes",		"Charles Chaplin in Modern Times" },
 	{ "mominoki",			"もみの木の下で ～ The Day of St.Claus" },			// Under the Fir Tree
 	{ "monja",				"monja" },										// もんじゃ
+	{ "morisawa",			"人間と文字" }, // Man and Writing
 	{ "moritaka",			"森高千里 CD-ROM 渡良瀬橋" },
 	{ "msseifuku",			"ミッションスクール制服図鑑" },			// Mission School Seifuku Zukan
 	{ "oceansbelow",		"Oceans Below" },
@@ -5144,6 +5145,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Mac version requires installation, Install Microshaft, Vise 3.6 installer
 	WINGAME1("microshaft", "", "micro32.exe", "ae4c5d1b7e9c84a22cc32893a74469f6", 2121827, 606),
 	MACGAME1("microshaft", "", " Microshaft Launcher", "63a9f0ace9f72700eb4d947fbbf24f4a", 1028821, 606),
+
+	MACGAME1_l("morisawa", "", "xn--o9jt62g2uibikdr4d", "6c317cf4d0d541b8f70626502d31fde9", 1035144, Common::JA_JPN, 602),
+	WINGAME1t_l("morisawa", "", "MORISAWA.EXE", "40ec21a9805accd535cb6d03f26a3e56", 1516350, Common::JA_JPN, 602),
 
 	MACGAME1("mulanpresskit", "", "Disney's Mulan", "d16e0af2a86b6b04a8f9c86205c0d3d2", 1031738, 601),
 	WINGAME1("mulanpresskit", "", "MULAN.EXE", "ece1c7a090010965890840102978e693", 1828679, 601),
