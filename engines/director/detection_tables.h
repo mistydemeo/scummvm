@@ -787,6 +787,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "inugumi",   			"犬組" },
 	{ "ios",   				"iós" },
 	{ "intro", 				"INTRO꞉ New Cultural EDGE Ver1.0" },
+	{ "intro1", 			"INTRO No. 1 1994" },
 	{ "junglepark",			"Jungle Park" },
 	{ "jyajya",				"Jya jya" },										// HyperCard with D3 movie
 	{ "karuta",				"「フ・ジ・ワ・ラ・テ・イ・カ」の百人一首: かるたでおじゃる" },	// "Fu Ji Wa Ra Te I Ka" no Hyakunin Isshu: Karuta de Ojaru
@@ -1853,6 +1854,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 										  "1.Note",    "9afa1fce2f0f999e00af7d32cb8bd82d", 4946, Common::JA_JPN, 311),
 
 	MACDEMO1_l("intro", "", "xn--w8jm4fv92r", "f5277c53bacd27936158dd3867e587e2", 392314, Common::JA_JPN, 311),
+	WINGAME1t_l("intro1", "", "INTRO_01.EXE", "fe7c54b4af5508ef7378474c7e909a2b", 370007, Common::JA_JPN, 311),
 
 	// Original filename is 犬組デモ
 	MACDEMO1_l("inugumi", "Demo", "Inugumi Demo", "f5277c53bacd27936158dd3867e587e2", 2366693, Common::JA_JPN, 311),
