@@ -813,6 +813,8 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "moworld",			"Reiko's Adventures in MO-World" },
 	{ "mukashibanashi",     "日本昔話" },										// Nihon Mukashi Banashi (Japanese Folk Tales)
 	{ "murphystv",			"Murphy's TV" },
+	{ "negi1",				"ねぎ Vol. 1" }, // Negi
+	{ "negi3",				"ねぎ3世" }, // Negi the 3rd
 	{ "nihonchiri",       	"Visual日本地理" },									// Japan Geography
 	{ "niningashi",			"ににんがし" },
 	{ "noahsark",			"Noah's Ark" },
@@ -3502,6 +3504,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME1("necrobius", "", "N_BIUS.EXE", "d82ac6034122e1314157931f9df613f9", 692919, 400),
 	WINDEMO1("necrobius", "Demo", "N_BIUS.EXE", "d17330706956c2fda3ee482b39b0609f", 705049, 400),
 
+	MACGAME1_l("negi1", "", "Power", "1e817476c1d58b61cc74a08d685460fd", 100069, Common::JA_JPN, 404),
+	WINGAME1t_l("negi1", "", "NEGI.EXE", "295224cdc826db343629e7741f5163af", 751189, Common::JA_JPN, 400),
+
 	// Main app isn't Director.
 	// Original filename 'Nendo デモムービー'
 	MACDEMO1_l("nendo", "Demo Movie", "xn--Nendo -8v4emd6eta10ab", "bcd3c718db258701496b3c5bcb827ef2", 481803, Common::JA_JPN, 404),
@@ -4535,6 +4540,12 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Bilingual Japanese/English
 	MACGAME1("musicforliving",  "", "ASL", "4f2c70510b4cbedf758cf9958d218e6e", 705445,  505),
 	WINGAME1t("musicforliving", "", "ASL.EXE",	   "b7853a82d4edff6be38b545143e95940", 1411198, 501),
+
+	// Original filename is 'ねぎ3世'
+	MACGAME1_l("negi3", "", "xn--3-l8t6do49k", "e2acdaafa16d8dbecbeca418d7e44899", 719636, Common::JA_JPN, 500),
+	// Decomposed variant
+	MACGAME1_l("negi3", "", "xn--3-j8t9dxhu56l", "e2acdaafa16d8dbecbeca418d7e44899", 719636, Common::JA_JPN, 500),
+	WINGAME1t_l("negi3", "", "NEGI_3.EXE", "da9cee84ee984174c52d359132ad4ac6", 929342, Common::JA_JPN, 501),
 
 	// Found on PC World (Czechia) Sept 2003
 	WINGAME2_l("nemcina", "", "START_32.EXE", "3460ad87d2ba57104e2810a77b53c220", 1710313,
