@@ -930,6 +930,14 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "pbosakana",	        "PerfectBLUE OSAKANA" },
 	{ "pbtoilet1",	        "PerfectBLUE TOILET1" },
 	{ "pbtoilet2",	        "PerfectBLUE TOILET2" },
+	{ "pod1",				"POD: Super Pop Digital Magazine" },
+	{ "pod3",				"POD: Super Pop Digital Magazine Vol. 3" },
+	{ "pod4",				"POD: Super Pop Digital Magazine Vol. 4" },
+	{ "pod5",				"POD: Super Pop Digital Magazine Vol. 5" },
+	{ "pod6",				"POD: Super Pop Digital Magazine Vol. 6" },
+	{ "pod7",				"POD: Super Pop Digital Magazine Vol. 7" },
+	{ "pod8",				"POD: Super Pop Digital Magazine Vol. 8" },
+	{ "pod9",				"POD: Super Pop Digital Magazine Vol. 9" },
 	{ "pepperon",	        "ペペロン村の四季" },			// Four Seasons in Pepperon Village, aka Valmaison au fil des saisons, aka Livet i Pepperon
 	{ "perfectblue",        "Perfect Blue そらいろ★ナイト" },
 	{ "pyrethrum1",			"除虫菊Vol.1" },
@@ -3601,6 +3609,30 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("peepeebonbon", "", "PPBB.MAC", "33f733b2809b94c3301096902f642b6e", 289518, Common::JA_JPN, 402),
 	WINGAME1t_l("peepeebonbon", "", "PPBB.EXE", "ccfe8e10528261b78f4a8c9657a54ff8", 746983, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod1", "", "POD1MAC", "8ea9e9a699c61edddffd79ddd0c994d7", 309132, Common::JA_JPN, 400),
+	WINGAME1t_l("pod1", "", "POD1WIN.EXE", "af356f6331ffd615a1a1954b9338d8f1", 690987, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod3", "", "POD3MAC", "e6833f1ce3b022f0128e4c80a55bcd46", 311035, Common::JA_JPN, 404),
+	WINGAME1t_l("pod3", "", "POD3WIN.EXE", "771fcc769bdeea7887087e662e2c3430", 741859, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod4", "", "POD4MAC", "b727e823af7807a4ccfd3575b85a902f", 315394, Common::JA_JPN, 404),
+	WINGAME1t_l("pod4", "", "POD4WIN.EXE", "e7b938cb64222c6fc6d3161d54d73dbc", 746971, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod5", "", "POD5 for MAC", "8ea9e9a699c61edddffd79ddd0c994d7", 315394, Common::JA_JPN, 404),
+	WINGAME1t_l("pod5", "", "POD5WIN.EXE", "771fcc769bdeea7887087e662e2c3430", 741859, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod6", "", "POD6 for Macintosh", "e6833f1ce3b022f0128e4c80a55bcd46", 311035, Common::JA_JPN, 404),
+	WINGAME1t_l("pod6", "", "POD6WIN.EXE", "771fcc769bdeea7887087e662e2c3430", 741859, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod7", "", "POD7 for Macintosh", "e6833f1ce3b022f0128e4c80a55bcd46", 311035, Common::JA_JPN, 404),
+	WINGAME1t_l("pod7", "", "POD7WIN.EXE", "771fcc769bdeea7887087e662e2c3430", 741859, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod8", "", "POD8 For Macintosh", "e6833f1ce3b022f0128e4c80a55bcd46", 311035, Common::JA_JPN, 404),
+	WINGAME1t_l("pod8", "", "POD8WIN.EXE", "771fcc769bdeea7887087e662e2c3430", 741859, Common::JA_JPN, 404),
+
+	MACGAME1_l("pod9", "", "POD9 For Macintsosh", "8ea9e9a699c61edddffd79ddd0c994d7", 315394, Common::JA_JPN, 404),
+	WINGAME1t_l("pod9", "", "POD9WIN.EXE", "771fcc769bdeea7887087e662e2c3430", 741859, Common::JA_JPN, 404),
 
 	MACGAME1_l("petepilotti1", "",	   "Seikkailu Lapponiassa", "a8e65a2268226bd59f12ebdc58a221f3", 483746, Common::FI_FIN, 404),
 	MACDEMO1_l("petepilotti1", "Demo", "Pete Pilotin esittely", "0c7bbb4b24823e5ab871cb4c1d6f3710", 483746, Common::FI_FIN, 404),
