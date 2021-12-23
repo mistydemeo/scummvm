@@ -4290,7 +4290,7 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("dinos", "", "Dinos", "231d3041df162be4a0ddd36a74eb03b6", 718285, 500),
 	WINGAME1("dinos", "", "DINO98.EXE", "3460ad87d2ba57104e2810a77b53c220", 1393813, 500),
 
-	MACGAME1_l("djrom", "", "DJ-ROM", "4a3fc901992d82fa2197da9da1be6992", 107828, Common::JA_JPN, 501),
+	MACGAME1_l("djrom", "", "DJ-ROM", "4a3fc901992d82fa2197da9da1be6992", 107572, Common::JA_JPN, 501),
 	WINGAME1_l("djrom", "", "DJROM.exe", "38b75ecdedf662326fe4931a68ae60cd", 1823050, Common::JA_JPN, 501),
 
 	// Het Geheim van Dracula, Win versions on same discs are D4
