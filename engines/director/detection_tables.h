@@ -821,6 +821,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "pantosstory", 		"Pantos Story"},
 	{ "pasosuke", 			"ぱそすけ"},
 	{ "peaceland",			"PeaceLand" },
+	{ "peepeebonbon", 		"Pee Pee Bon Bon"},
 	{ "phantplanet",		"アミューズメント プラネット ファンタスマゴリア" },	// Amusement Planet Phantasmagoria
 	{ "picklesbook",		"Pickle's Book" },
 	{ "pinkgear",			"Pink Gear Collection" },
@@ -3597,6 +3598,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1("pecosbill", "", "Pecos Bill", "67f572196550aedb1f9523d782022be0", 483500, 404),
 	WINGAME1("pecosbill", "", "PECOS.EXE", "948eb8995faf757e4ad899ea45b3fae7", 700035, 404),
+
+	MACGAME1_l("peepeebonbon", "", "PPBB.MAC", "33f733b2809b94c3301096902f642b6e", 289518, Common::JA_JPN, 402),
+	WINGAME1t_l("peepeebonbon", "", "PPBB.EXE", "ccfe8e10528261b78f4a8c9657a54ff8", 746983, Common::JA_JPN, 404),
 
 	MACGAME1_l("petepilotti1", "",	   "Seikkailu Lapponiassa", "a8e65a2268226bd59f12ebdc58a221f3", 483746, Common::FI_FIN, 404),
 	MACDEMO1_l("petepilotti1", "Demo", "Pete Pilotin esittely", "0c7bbb4b24823e5ab871cb4c1d6f3710", 483746, Common::FI_FIN, 404),
