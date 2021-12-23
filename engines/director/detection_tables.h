@@ -792,6 +792,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "intro", 				"INTRO꞉ New Cultural EDGE Ver1.0" },
 	{ "intro1", 			"INTRO No. 1 1994" },
 	{ "intro2", 			"INTRO No. 2 1994" },
+	{ "jinkakuzukan",		"人格図鑑" }, // Personality Profile
 	{ "junglepark",			"Jungle Park" },
 	{ "jyajya",				"Jya jya" },										// HyperCard with D3 movie
 	{ "karuta",				"「フ・ジ・ワ・ラ・テ・イ・カ」の百人一首: かるたでおじゃる" },	// "Fu Ji Wa Ra Te I Ka" no Hyakunin Isshu: Karuta de Ojaru
@@ -3219,6 +3220,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 										 "NAVLOAD.DXR",     "1f4466ba91364dd7223264b86dd5402c", 403980, 404),
 	WINDEMO2_l("jewels1", "Demo",        "DEMO.EXE",		"ebee52d3c4280674c600177df5b09da0", 800403,
 										 "NAVLOAD.DXR",     "1f4466ba91364dd7223264b86dd5402c", 403980, Common::FR_FRA, 404),
+
+	// Original filename is '人格図鑑'
+	MACGAME1_l("jinkakuzukan", "", "xn--gmq53rj3o0s5b", "bcd3c718db258701496b3c5bcb827ef2", 484095, Common::JA_JPN, 404),
+	WINGAME1t_l("jinkakuzukan", "", "JIN_98.EXE", "a054f384ec95c65e01738e4d16970937", 752141, Common::JA_JPN, 404),
 
 	// Original filename is JMP Turbo™
 	MACGAME1("jman", "Turbo!", "JMP Turbo", "cc3321069072b90f091f220bba16e4d4", -1, 400),
