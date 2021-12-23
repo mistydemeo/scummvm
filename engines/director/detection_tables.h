@@ -878,6 +878,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "ybr2",				"イエロー・ブリック・ロードII" },
 	{ "ybr3",				"Yellow Brick Road ハラペコ月と星あつめ" },
 	{ "yoidon",				"よ〜いドン!" },									// Yo-i Don!
+	{ "yoshimotogeino",		"吉本芸能整形" }, // Yoshimoto Geino Seikei
 	{ "zaibatsu",			"財閥銀行" },										// Zaibatsu Bank
 
 	// Japanese art and multimedia reference
@@ -4067,6 +4068,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Original Mac filename is 真・百物語
 	MACGAME1_l("yokai", "", "xn--vek138qttcmsa439e", "17efee018a660458fae80de4364021ac", 556245, Common::JA_JPN, 404),
 	WINGAME1_l("yokai", "", "YOUKAI.EXE", "d223c4b2174baf83bc33357a94077fea", 740279, Common::JA_JPN, 404),
+
+	// Original filename is '吉本芸能整形'
+	MACGAME1_l("yoshimotogeino", "", "xn--9pry7xgzejzbf61d6fc", "0c7bbb4b24823e5ab871cb4c1d6f3710", 484067, Common::JA_JPN, 404),
+	WINGAME1t_l("yoshimotogeino", "", "YOSHI.EXE", "ad61e5d1455ed0f24af19ceac3377312", 1258187, Common::JA_JPN, 404),
 
 	MACGAME1_l("yokaanime18", "", "xn--18-z73ankte4jofn518co1ol", "e5a799da09d626f4954f306d12bbb6ea", 340613, Common::JA_JPN, 400),
 
