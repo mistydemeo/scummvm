@@ -913,6 +913,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "llla",				"Live Love Life AIDS" },
 	{ "mazebox",			"The Latest Works of MazeBox" },
 	{ "microphonefiend",	"Microphone Fiend" },
+	{ "musicforliving",		"Music for Living Sound" },
 	{ "mmedia11",			"Masters of Media: The Making of サクラ大戦" },			// Sakura Taisen
 	{ "moderntimes",		"Charles Chaplin in Modern Times" },
 	{ "mominoki",			"もみの木の下で ～ The Day of St.Claus" },			// Under the Fir Tree
@@ -4473,6 +4474,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// English version is D3
 	MACGAME1_l("murderbrett", "", "Brad, le surfeur", "227fcce08de8028e2201f5f4eb3b3cc3", 720160, Common::FR_FRA, 500),
 	WINGAME1_l("murderbrett", "", "BRAD.EXE", "e1c3cb4df694b887f3708f9ebb72302f", 934342, Common::FR_FRA, 500),
+
+	// Bilingual Japanese/English
+	MACGAME1("musicforliving",  "", "ASL", "4f2c70510b4cbedf758cf9958d218e6e", 705445,  505),
+	WINGAME1t("musicforliving", "", "ASL.EXE",	   "b7853a82d4edff6be38b545143e95940", 1411198, 501),
 
 	// Found on PC World (Czechia) Sept 2003
 	WINGAME2_l("nemcina", "", "START_32.EXE", "3460ad87d2ba57104e2810a77b53c220", 1710313,
