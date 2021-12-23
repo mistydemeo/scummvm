@@ -848,6 +848,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "schoolworld",     	"A-L: Artificial Life: School World" },
 	{ "seesawc1",     		"SeesawC1" },
 	{ "smallhouse", 		"Small House" },
+	{ "startover", 			"Start Over ROM" },
 	{ "tantei",				"完全探偵マニュアル" },								// Perfect Detective Manual
 	{ "tetsuman",			"ハイ! 鉄マン です" }, 								// Hai! Tetsuman Desu
 	{ "tetsumangaiden",		"鉄マン外伝 ゲーム大王の野望" }, 					// Tetsuman Gaiden: Game Daiou no Yabou
@@ -5367,6 +5368,12 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	// Mac version is D5
 	WINGAME1("ssrevwar", "", "Revwar.exe", "d62438566e44826960fc16c5c23dbe43", 21088827, 650),
+
+	MACGAME1("startover", "", "START OVER", "a9351ab8f542c648b3e7db3957d5c102", 118562, 602),
+	WINGAME1t("startover", "", "START OVER.EXE", "5b3c75060e6c0ec4fd463ae5fcf68e23", 1733326, 602),
+	// Standalone app contained in a subdirectory
+	MACGAME1("startover", "motion dive", "motion dive (Harada ver.)", "0c1f969fbe24210107d0db4194b15d61", 118806, 600),
+	WINGAME1t("startover", "motion dive", "motion dive HD.exe", "fe36065675486a97715027200f230783", 5135271, 602),
 
 	// From Microshaft Winblows, full game is D5
 	MACDEMO1("starwarped", "Preview", "Star Warped Preview", "63a9f0ace9f72700eb4d947fbbf24f4a", 1028821, 606),
