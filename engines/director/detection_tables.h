@@ -826,6 +826,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "picklesbook",		"Pickle's Book" },
 	{ "pinkgear",			"Pink Gear Collection" },
 	{ "pinkgear2",			"Pink Gear 2" },
+	{ "poporon",			"PoPoRon" },
 	{ "popup",				"Pop Up Computer" },
 	{ "popupmaker",			"Pop Up Maker" },
 	{ "prescue",			"パラダイス レスキュ" },							// Paradise Rescue
@@ -5308,6 +5309,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Mac installer uses Director 7.0.2
 	MACDEMO1("poohp", "D6 Demo", "PSchool.Mac", "e0eb86f93a9fba6ea6c4141eed29d923", 116023, 650),
 	WINDEMO1("poohp", "D6 Demo", "PSchool.exe", "d62438566e44826960fc16c5c23dbe43", 1501560, 650),
+
+	MACGAME1_l("poporon", "", " PoPoRon", "68a0694e294e201c167feff1953eb8ce", 118587, Common::JA_JPN, 601),
+	WINGAME1t_l("poporon", "", "POPORON.EXE", "37c0c99d35e762a2f44ef93732bc9337", 1799789, Common::JA_JPN, 601),
 
 	// American Revolutionary War
 	MACGAME2("revwar", "", "BEGIN",		   "2806e0d1bac713be5677a62b425d3c98", 1030361,
