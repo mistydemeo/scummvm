@@ -962,6 +962,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "tree",				"Onyx Tree Pro" },
 	{ "tri3dtrial",			"Tri-3D-Trial" },
 	{ "ukiukibgv",			"ウキウキ釣り天国 BGV" },							// Background Video? (Screen Saver)
+	{ "undergroundaz",		"Underground AtoZ SO OUT" },
 	{ "vcb",				"Virtual Cocktail Bar 200種類のカクテルのデータベース" },
 	{ "virtualmuseum",		"Virtual Museum" },
 	{ "xmaspresent",		"Christmas Present" },
@@ -3948,6 +3949,13 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Demo is D5
 	// Original filename is 人魚島のボート釣り
 	MACGAME1_l("ukiuki3", "", "Ningyo shima no boto-dzuri", "bcd3c718db258701496b3c5bcb827ef2", 488038, Common::JA_JPN, 404),
+
+	// Bilingual Japanese/English
+	MACGAME1("undergroundaz", "", "SO_OUT", "47e49b52d4c99ea6ea72c3dcbb57b34b", 290422, 400),
+	WINGAME1t("undergroundaz", "", "SO_OUT.EXE", "cbffbb52e532daf671a6398c25d6db1d", 4637941, 404),
+	// Standalone app in a subdirectory
+	MACGAME1("undergroundaz", "Left Hand Drawings", "DRAWING", "8ea9e9a699c61edddffd79ddd0c994d7", 290398, 402),
+	WINGAME1t("undergroundaz", "Left Hand Drawings", "DRAWING.EXE", "e1afecdd3458db84a7a4a0c26b8ebad3", 716183, 404),
 
 	MACGAME1("universe", "", "Invisible Universe", "78138a77207907642744d0960c14d9e5", 596766, 404),
 	WINGAME2("universe", "", "UNIVERSE.EXE", "77ddb6ca4c45b78cc501868afa55e166", 700157,
