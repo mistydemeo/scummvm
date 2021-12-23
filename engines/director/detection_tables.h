@@ -921,6 +921,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "morisawa",			"人間と文字" }, // Man and Writing
 	{ "moritaka",			"森高千里 CD-ROM 渡良瀬橋" },
 	{ "msseifuku",			"ミッションスクール制服図鑑" },			// Mission School Seifuku Zukan
+	{ "no",					"NO" },
 	{ "oceansbelow",		"Oceans Below" },
 	{ "pbdisplay",	        "PerfectBLUE DISPLAY" },
 	{ "pbflash",	        "PerfectBLUE FLASH" },
@@ -5177,6 +5178,12 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Choice of French or English gameplay at start
 	MACGAME1("nightcafe", "", "Cafe", "e8fd8a7b24520e47344c2d9768a2479f", 1029193, 600),
 	WINGAME1("nightcafe", "", "Cafe95.exe", "a593079aecf5bd938ce75264cac24b2d", 1701222, 600),
+
+	MACGAME1_l("no", "#1", "NO#1", "4e6ee3e16e7e3860944a9fc21c348d48", 116326, Common::JA_JPN, 602),
+	MACGAME1_l("no", "#2", "NO#2", "4e6ee3e16e7e3860944a9fc21c348d48", 116326, Common::JA_JPN, 602),
+	WINGAME1t_l("no", "#1", "NO#1.EXE", "8619f2cb5220c0375c577a25ed465742", 1514179, Common::JA_JPN, 602),
+	WINGAME1t_l("no", "#2", "NO#2.EXE", "533a1888d8005a98e48858fa63977617", 1514197, Common::JA_JPN, 602),
+	WINGAME1t_l("no", "Screensaver", "No_saver.exe", "fffb27a504feaf07cdd68ec88d708b99", 1822020, Common::JA_JPN, 602),
 
 	// US name is Noddy: Playtime in Toyland
 	WINGAME1_l("noddyschool", "", "Noddy.exe", "518a98696fe1122e08410b0f157f21bf", 1552898, Common::EN_GRB, 602),
