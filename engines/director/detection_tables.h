@@ -5369,11 +5369,11 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Mac version is D5
 	WINGAME1("ssrevwar", "", "Revwar.exe", "d62438566e44826960fc16c5c23dbe43", 21088827, 650),
 
-	MACGAME1("startover", "", "START OVER", "a9351ab8f542c648b3e7db3957d5c102", 118562, 602),
-	WINGAME1t("startover", "", "START OVER.EXE", "5b3c75060e6c0ec4fd463ae5fcf68e23", 1733326, 602),
+	MACGAME1_l("startover", "", "START OVER", "a9351ab8f542c648b3e7db3957d5c102", 118562, Common::JA_JPN, 602),
+	WINGAME1t_l("startover", "", "START OVER.EXE", "5b3c75060e6c0ec4fd463ae5fcf68e23", 1733326, Common::JA_JPN, 602),
 	// Standalone app contained in a subdirectory
-	MACGAME1("startover", "motion dive", "motion dive (Harada ver.)", "0c1f969fbe24210107d0db4194b15d61", 118806, 600),
-	WINGAME1t("startover", "motion dive", "motion dive HD.exe", "fe36065675486a97715027200f230783", 5135271, 602),
+	MACGAME1_l("startover", "motion dive", "motion dive (Harada ver.)", "0c1f969fbe24210107d0db4194b15d61", 118806, Common::JA_JPN, 600),
+	WINGAME1t_l("startover", "motion dive", "motion dive HD.exe", "fe36065675486a97715027200f230783", 5135271, Common::JA_JPN, 602),
 
 	// From Microshaft Winblows, full game is D5
 	MACDEMO1("starwarped", "Preview", "Star Warped Preview", "63a9f0ace9f72700eb4d947fbbf24f4a", 1028821, 606),
