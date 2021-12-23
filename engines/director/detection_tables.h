@@ -358,6 +358,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "skippy",             "Skippy and the Curse of the Temple of Ock" },
 	{ "skyborg",			"SkyBorg: Into the Vortex" },
 	{ "slamdunktyping",		"Slam Dunk Typing" },
+	{ "smallfish",			"Small Fish" },
 	{ "smartsteps3rd",		"Smart Steps 3rd Grade" },
 	{ "snh",				"A Silly Noisy House" },
 	{ "snow7han",			"Snow White and the Seven Hansels: The Fairy Tale Game" },
@@ -5345,6 +5346,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// From Elmo's Art Workshop CD
 	WINDEMO1t("shrmess", "Demo", "SHRM14.EXE", "fc37d09a744d04f7dd5b31e0ab9f50e6", 1318025, 606),
 	MACDEMO1("shrmess", "Demo", "MATH ESSENTIALS DEMO", "b0b0e36586489ca6070d20feeff52fa5", 1028001, 606),
+
+	// German/English bilingual
+	MACGAME1("smallfish", "", "Small_Fish", "7a36d53490a07ddc212b65cad9ed11f3", 115767, 600),
+	WINGAME1t("smallfish", "", "START.EXE", "5b9294e4836af8dc30a7e8a8fc799bb2", 1527107, 602),
 
 	WINGAME1("ss007", "", "007.exe", "d62438566e44826960fc16c5c23dbe43", 4971852, 650),
 
