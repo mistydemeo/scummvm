@@ -845,6 +845,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "sakin2",				"砂金II" }, 										// Sakin II
 	{ "sakuratoasobo",		"さくらとあそぼ" }, 								// Let's Play with "SAKURA"!
 	{ "schoolworld",     	"A-L: Artificial Life: School World" },
+	{ "seesawc1",     		"SeesawC1" },
 	{ "smallhouse", 		"Small House" },
 	{ "tantei",				"完全探偵マニュアル" },								// Perfect Detective Manual
 	{ "tetsuman",			"ハイ! 鉄マン です" }, 								// Hai! Tetsuman Desu
@@ -4676,6 +4677,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("secretsafari", "", "Demo Safari",    "5eb167ccbe590c1d5eb727821277b67f", 719636, Common::JA_JPN, 501),
 	WINGAME1_l("secretsafari", "", "Sf_demo.exe",    "2535f11350bc1f2b7ca2dcc6c0cdddfd", 1411258, Common::JA_JPN, 501),
+
+	MACGAME1_l("seesawc1", "", "PPC", "56418baf7647cf3d7759cab01570ae52", 107863, Common::JA_JPN, 501),
+	WINGAME1t_l("seesawc1", "", "SC01_32.EXE", "e2d36c3beece0f74c7879b0b52392fb5", 1409869, Common::JA_JPN, 501),
 
 	WINGAME1t("luxor", "", "SECRETS.EXE", "7f1d08293b07dbdff264858dd38ac6f0", 938231, 501),
 	MACGAME1("luxor", "", "Secrets PPC", "0fb300fd8a82c7a2d264cea1736bd124", 96616, 505),
