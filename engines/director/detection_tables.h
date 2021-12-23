@@ -958,6 +958,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "ssyamazaki",			"山崎君 Screen Saver" },							// Yamazaki-kun
 	{ "ssyukito",			"雪兎さん Screen Saver" },							// Yukito-san
 	{ "tokon5",				"闘魂V: 長州 力" },									// Fighting Spirit V: Riki Choshu
+	{ "tomato",				"To. Ma. To." },
 	{ "tree",				"Onyx Tree Pro" },
 	{ "tri3dtrial",			"Tri-3D-Trial" },
 	{ "ukiukibgv",			"ウキウキ釣り天国 BGV" },							// Background Video? (Screen Saver)
@@ -5423,6 +5424,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME2("tkkg6", "", "TKKG-Start", "dd58f1859ddab9bf15867a510cf7bfe4", 1033758,
 						  "Score.dxr",  "3b6e459f27a81a5f33c8b2bccefe6888", 26322, 650),
 	WINGAME1t("tkkg6", "", "Tkkg6_32.exe", "52239d8b9852067433fbce14928fe650", 1594089, 602),
+
+	// Bilingual Japanese/English
+	MACGAME1("tomato", "",		   "tomato2", "9c595b98af545997155f2f020ad2ec5f", 1028001, 606),
+	WINGAME1t("tomato", "",  "TOMATO2.EXE", "82536fc9800cf7fabda97c74cca3ed8f", 1550097, 606),
 
 	WINGAME1("traitorsgate", "", "TRG001.EXE", "b762d2cc3f7db2a6446135917fe92496", 2072959, 650),
 
