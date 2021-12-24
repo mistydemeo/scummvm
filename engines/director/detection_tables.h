@@ -756,6 +756,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "digitalboy1",		"Digital Boy CD-ROM Vol. 1" },
 	{ "digitalboy2",		"Digital Boy CD-ROM Vol. 2" },
 	{ "digitalboy3",		"Digital Boy CD-ROM Vol. 3" },
+	{ "dropcity",			"Drop City" },
 	{ "nendo",				"Digital Nendo" },
 	{ "earthtia",			"アースティアサーガ ラーサーレジェンド" },					// Earthtia Saga: Larthur's Legend
 	{ "epson96",			"I Love EPSON '96 シェイプUPガールズ" },				// Shape Up Girls
@@ -2813,6 +2814,9 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME1_l("draculassecret", "", "secret.EXE",	"169e3f445e3f5489f98194e63ad14730", 763851, Common::NL_NLD, 404),
 
 	MACGAME1("dreidel", "", "dreidel", "77f4098988d5386794d1530065f514cd", 304189, 400),
+
+	MACGAME1_l("dropcity", "", "Mac_Hi", "17efee018a660458fae80de4364021ac", 481803, Common::JA_JPN, 404),
+	WINGAME1t_l("dropcity", "", "WIN.EXE", "9680a67c57977e5d4a679455f722c240", 1298847, Common::JA_JPN, 404),
 
 	MACGAME1_l("earthtia", "", "LATHUR'S LEGEND", "b267d7e5f42c170a4f5dbb50a0f4e064", 289818, Common::JA_JPN, 402),
 
