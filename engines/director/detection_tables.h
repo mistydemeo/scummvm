@@ -756,6 +756,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "digitalboy1",		"Digital Boy CD-ROM Vol. 1" },
 	{ "digitalboy2",		"Digital Boy CD-ROM Vol. 2" },
 	{ "digitalboy3",		"Digital Boy CD-ROM Vol. 3" },
+	{ "dinoventure",		"The DinoVenture" },
 	{ "dropcity",			"Drop City" },
 	{ "nendo",				"Digital Nendo" },
 	{ "earthtia",			"アースティアサーガ ラーサーレジェンド" },					// Earthtia Saga: Larthur's Legend
@@ -2799,6 +2800,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 		"HTML/ANOTHER.HTM", "9c03bee25458afb918549a89f6ba8b70", 2692,
 		Common::JA_JPN, 404),
 	WINGAME1t_l("digitalboy3", "", "D_BOYWIN.EXE", "983157668ccbadfb35814ad897a46266", 742873, Common::JA_JPN, 404),
+
+	WINGAME1t_l("dinoventure", "", "WINDINO.EXE", "c79c8650364bb44cfe195b136bf3eedb", 4210471, Common::JA_JPN, 404),
 
 	MACDEMO1_l("dirmacromedia", "v4.0.3J Demo", "Director 4.0 Demo", "e258089af01c8233db77039828cc83f8", 1488951, Common::JA_JPN, 403),
 
