@@ -913,6 +913,8 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "gasbook",			"GASBOOK" },
 	{ "gasbook2",			"GASBOOK 002" },
 	{ "gasbook5",			"GASBOOK 5: Paradise" },
+	{ "gasbook6",			"GASBOOK 6" },
+	{ "gasbook7",			"GASBOOK 7" },
 	{ "glassyocean",		"Glassy Ocean: original graphics & music" },
 	{ "goalrush1",			"Goal Rush!!" },
 	{ "goalrush2",			"Goal Rush!! 2 ～戦術分析編～" },
@@ -5175,6 +5177,22 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1_l("gasbook5", "Tota Chris", "start!!", "50fe84424f7945696d8c0ae98e4658a5", 1035232, Common::JA_JPN, 602),
 	WINGAME1t_l("gasbook5", "Tota Chris", "CarbonicWater.exe", "b982146caa0bad2b4f85750a1f909da3", 1786590, Common::JA_JPN, 602),
 
+	MACGAME1("gasbook6", "Anti-Rom", "cdgeez", "fa52f0136cde568a46249ce74f01a324", 111247, 602),
+	WINGAME1t("gasbook6", "Anti-Rom", "CDGEEZA.exe", "e8073df19d36c85f3d15e220bc74371c", 3446208, 602),
+	MACGAME1("gasbook6", "Daniel Jenett - jetfilm", "jetfilm", "2afb3de2b098fca8a06b5f133b910203", 1035268, 602),
+	WINGAME1t("gasbook6", "Daniel Jenett - jetfilm", "jetfilm.exe", "cc847313de5ed673decf915acad33628", 2199712, 602),
+	MACGAME1("gasbook6", "jodi", "-0FFSCR", "dc43d30c8a52d165c26319abb5258983", 1032335, 602),
+	WINGAME1t("gasbook6", "jodi", "-OFFSCR.exe", "7788665622877779f8f7996685642d48", 1686169, 606),
+	MACGAME1("gasbook6", "JONNI NITRO 1", "JN1", "078483b4b9b3a88bcf2c322529e88bfb", 1034360, 602),
+	MACGAME1("gasbook6", "JONNI NITRO 2", "JN2", "078483b4b9b3a88bcf2c322529e88bfb", 1034360, 602),
+	MACGAME1("gasbook6", "SKOT", "SKOT", "2afb3de2b098fca8a06b5f133b910203", 1035268, 602),
+	WINGAME1t("gasbook6", "SKOT", "skot.exe", "f8090c50a402af6eb4a782d755789955", 1916105, 650),
+	MACGAME1("gasbook6", "soulmatesGraphica - talking tommy", "talking tommy", "d75c9a4cc2c921cbcfa2e976bce9abd0", 1039241, 602),
+	MACGAME1("gasbook6", "soulmatesGraphica - cruising on", "cruising on+", "d1d1ee07987a38fd726f152a52d96114", 1305708, 602),
+	WINGAME1t("gasbook6", "soulmatesGraphica - talking tommy", "tomy.exe", "0db2058ef04a25155175d3fb6ffbc164", 3088746, 602),
+	MACGAME1("gasbook6", "The Designers Republic", "DR-Infoburst", "a37dbec9be7989aed94fcacdad3747ea", 115767, 650),
+	WINGAME1t("gasbook6", "The Designers Republic", "DR_Infoburst.exe", "c567e0a8cd2d59ccd687706105a1f530", 10470327, 602),
+
 	WINDEMO1("generations", "v4.2 Demo", "GEN95.EXE", "a593079aecf5bd938ce75264cac24b2d", 15646702, 600),
 
 	// Gigglebone Gang games (Beestenbende) were published in Belgium and the Netherlands by Zwijsen CD-ROMs
@@ -5662,6 +5680,14 @@ static const DirectorGameDescription gameDescriptions[] = {
 	//Miel Monteur - Miel Bouwt Auto's!
 	WINGAME2_l("garygadget1", "", "Start.exe", "c1a2e8b7e41fa204009324a9c7db1030", 2933829,
 			"Monteur.cnt", "7038be89eb5c49b51927bf76d8fd0b8a", 2490, Common::NL_NLD, 700),
+
+	// Most of the disc is D6, but a few parts are D7
+	MACGAME1("gasbook6", "AGES5&UP", "flab", "91723348f6414e84d024183554385275", 110742, 701),
+	WINGAME1t("gasbook6", "AGES5&UP", "flab.exe", "9d04c94c59da09cdf547c54341f6b49f", 2492508, 701),
+	MACGAME1("gasbook6", "Buro Destruct", "xn--bdd-fd7s", "fa52f0136cde568a46249ce74f01a324", 110409, 700),
+	WINGAME1t("gasbook6", "Buro Destruct", "bdd.exe", "fedba028dff371f6b1436be3dddbfb41", 2142260, 700),
+	MACGAME1("gasbook6", "Daniel Jenett - type", "type", "91723348f6414e84d024183554385275", 108519, 701),
+	WINGAME1t("gasbook6", "Daniel Jenett - type", "TYPE.exe", "3ea133d61c9e3e6b4cfb220acebb93fa", 3869340, 701),
 
 	// Found on アクティブマスコット・ハイジ (Heidi Desktop Mascot) software from Inner Brain, Shinjuku, Tokyo
 	// Installers for the screen savers and other applications also use Director
