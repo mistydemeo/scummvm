@@ -899,6 +899,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "clocktomoyo",		"知世時計" },
 	{ "curiocity",		    "キュリオシティ" },
 	{ "ddoa2",				"アイドル探偵ＹＯＵ＆ＭＹ" },						// Idol Tantei (Doki Doki On-air Drama Series)
+	{ "delaware",			"Delaware: Catalog of Artoon" },
 	{ "delphinokioku",		"デルフォイの記憶" },						// Delphi Memory
 	{ "doshifunspecial",	"Doshi-Fun Special" },
 	{ "ebisu",				"カンタンな人生の法則" }, // Yoshikazu Ebisu's Easy Laws of Life
@@ -4321,6 +4322,40 @@ static const DirectorGameDescription gameDescriptions[] = {
 
 	MACGAME1_l("djrom", "", "DJ-ROM", "4a3fc901992d82fa2197da9da1be6992", 107572, Common::JA_JPN, 501),
 	WINGAME1_l("djrom", "", "DJROM.exe", "38b75ecdedf662326fe4931a68ae60cd", 1823050, Common::JA_JPN, 501),
+
+	// Each file is a standalone animation contained; there's no launcher
+	// Japanese/English bilingual
+	// Mac version includes a few extra items not in the Windows version
+	MACGAME1("delaware", "Color Cycletoon", "Color_Cycletoon", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "blue nude ll", "blue_nude_ll", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "esg", "esg", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "let's go human being", "let's_go_human_being", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "the venus of milo", "the_venus_of_milo", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "computer in love", "computer_in_love", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "mona lisa", "mona_lisa", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "walk, don't run", "walk,_don't_run", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "sharaku", "sharaku", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "too much too toon", "too_much_too_toon", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "identity", "identity", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "the thinker", "the_thinker", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "never mind the bollocks", "never_mind_the_bollocks", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "composition", "composition", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "duchamp", "duchamp", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "help!", "help!", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+	MACGAME1("delaware", "umbrella", "umbrella", "2f2af9379a930c8e31bee14e31925477", 108480, 501),
+
+	WINGAME1t("delaware", "blue nude ll", "01blue_nude_ll.exe", "24ae70cc3ccf728d79a9b93440ea75c1", 2445488, 501),
+	WINGAME1t("delaware", "esg", "02esg.exe", "5f54b8c25fd333d5b4138cd1bc381f79", 7492550, 501),
+	WINGAME1t("delaware", "let's go human being", "03let's_go_human_being.exe", "7fa9aa902fd41f4551868ef48318d51a", 7601274, 501),
+	WINGAME1t("delaware", "the venus of milo", "04the_venus_of_milo.exe", "f1e0bb37b7a849adbb65b86b9fe3da4a", 2591210, 501),
+	WINGAME1t("delaware", "computer in love", "05computer_in_love.exe", "a25a48014f94ef766b72c9f11c42f4f6", 8343178, 501),
+	WINGAME1t("delaware", "mona lisa", "06mona_lisa.exe", "b540c878a1ff40e8e470c0f0cf3e4f70", 2602166, 501),
+	WINGAME1t("delaware", "walk, don't run", "07walk,_don't_run.exe", "7105141c4ee3392d237548ba18ca19f1", 2460152, 501),
+	WINGAME1t("delaware", "sharaku", "08sharaku.exe", "cb240f3be19a4b120fc37881bbeb1e7a", 2501974, 501),
+	WINGAME1t("delaware", "too much too toon", "09too_much_too_toon.exe", "ce1e5dcda3913aef0b0fa70cdd2bb1d9", 2546746, 501),
+	WINGAME1t("delaware", "identity", "10identity.exe", "c44ddbf87e1f8503ca0a7fa9c9a21f22", 2404758, 501),
+	WINGAME1t("delaware", "the thinker", "11the_thinker.exe", "b12c52cb1ed6bf9658ee0f0d44ce9f6b", 8498468, 501),
+	WINGAME1t("delaware", "never mind the bollocks", "12never_mind_the_bollocks.exe", "bf6759ac50902409d53691d028705570", 2693444, 501),
 
 	// Het Geheim van Dracula, Win versions on same discs are D4
 	MACGAME1_l("draculassecret", "", "Dracula.PPC", "65f0701cced8f5c64813e1e0353f0510", 108119, Common::FR_FRA, 501),
