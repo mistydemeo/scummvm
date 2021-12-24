@@ -889,6 +889,7 @@ static const PlainGameDescriptor directorGames[] = {
 	// Japanese art and multimedia reference
 	{ "a5tours",			"A5 Tours: Special Data Library" },
 	{ "allthelunar",		"オール・ザ・ルナ LUNAR -ハイパーアプリケーションズ-" }, // All the Lunar: Hyper Applications
+	{ "aozoragaho",			"青空画報" }, // Blue Sky Pictorial
 	{ "angelolatrie", 		"Jean Cocteau: Angélolatrie & Phénixologie" },
 	{ "atmos", "Atmos Tetsujin Re-Mix" }, // Bundled with the Windows/Mac release of Tetsujin Returns, aka Iron Angel of the Apocalypse: The Return
 	{ "aquaplanet",			"Aquaplanet" },
@@ -4154,6 +4155,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	WINGAME1("amber", "", "AMBER_JB.EXE", "1a7acbba10a7246ba58c1d53fc7203f5", 1418103, 500),
 	WINDEMO1("amber", "Demo", "DEMO.EXE",     "1a7acbba10a7246ba58c1d53fc7203f5", 1417811, 500),
 
+	MACGAME1_l("aozoragaho", "", "PPC", "08166af62693ceab79b28d90d2f6c86b", 105571, Common::JA_JPN, 501),
+	WINGAME1t_l("aozoragaho", "", "32.EXE", "2787761ff8a943701c291da6e618310b", 1410721, Common::JA_JPN, 501),
 
 	// Original file names are ' ANKH2 ' and ' ANKH3 '
 	MACGAME1_l("ankh2", "", "ANKH2", "779a44f65837ded641cc3fbbebe5ace1", 721432, Common::JA_JPN, 501),
