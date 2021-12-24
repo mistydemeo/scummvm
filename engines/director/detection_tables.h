@@ -5689,6 +5689,11 @@ static const DirectorGameDescription gameDescriptions[] = {
 	MACGAME1("gasbook6", "Daniel Jenett - type", "type", "91723348f6414e84d024183554385275", 108519, 701),
 	WINGAME1t("gasbook6", "Daniel Jenett - type", "TYPE.exe", "3ea133d61c9e3e6b4cfb220acebb93fa", 3869340, 701),
 
+	// Unlike previous entries, Gasbook 7 has a single entry point
+	// Original filename is a single space
+	MACGAME1("gasbook7", "", "xn-- -", "91723348f6414e84d024183554385275", 114547, 701),
+	WINGAME1t("gasbook7", "", "gasbook7.exe", "27fe7bf1c767294750b1a858c6d87e9c", 3061158, 702),
+
 	// Found on アクティブマスコット・ハイジ (Heidi Desktop Mascot) software from Inner Brain, Shinjuku, Tokyo
 	// Installers for the screen savers and other applications also use Director
 	// Original calculator filenames are ハイジ電卓１.exe, ハイジ電卓２.exe, ハイジ電卓３.exe
