@@ -927,6 +927,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "humanbody",			"The Human Body" },
 	{ "ioshow",				"iós How To Game" },
 	{ "japanart04",			"Japan Art Today 04" },
+	{ "jinseiproresu",		"人生プロレス" }, // Life Pro Wrestling
 	{ "keiri",				"経理入門" },										// Introduction to Accounting
 	{ "llla",				"Live Love Life AIDS" },
 	{ "mazebox",			"The Latest Works of MazeBox" },
@@ -4516,6 +4517,8 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Later released as Jewels II: The Ultimate Challenge
 	MACDEMO1("jewels2", "Demo", "Jewels II", "231d3041df162be4a0ddd36a74eb03b6", 719261, 501),
 	WINGAME1("jewels2", "", "JewsII95.exe", "3460ad87d2ba57104e2810a77b53c220", 1454223, 500),
+
+	WINGAME1t_l("jinseiproresu", "", "JINPRO32.EXE", "1edfa12f4560c0bd105a9497ed2f0188", 1388043, Common::JA_JPN, 505),
 
 	MACGAME1("jslearn", "1997 D5 Demo", "JumpStart Previews", "231d3041df162be4a0ddd36a74eb03b6", 718745, 501),
 	WINGAME1("jslearn", "1997 D5 Demo", "PREV32A.EXE", "1a7acbba10a7246ba58c1d53fc7203f5", 1411155, 501),
