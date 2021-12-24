@@ -924,6 +924,7 @@ static const PlainGameDescriptor directorGames[] = {
 	{ "heididentaku3",		"ハイジ電卓３" },                                   // Heidi Calculators
 	{ "heidimail",			"Heidi グリーティングメールカード" },               // グリーティングメールカード (Greeting Mail Card)
 	{ "heidislide",			"Heidi スライドショー" },                           // Slideshow
+	{ "humanbody",			"The Human Body" },
 	{ "ioshow",				"iós How To Game" },
 	{ "japanart04",			"Japan Art Today 04" },
 	{ "keiri",				"経理入門" },										// Introduction to Accounting
@@ -4480,6 +4481,10 @@ static const DirectorGameDescription gameDescriptions[] = {
 	// Win version must be installed in 32-bit Windows to extract executable
 	WINGAME1_l("horrortour3", "", "HT3.exe", "3460ad87d2ba57104e2810a77b53c220", 5128359, Common::JA_JPN, 500),
 	MACGAME1_l("horrortour3", "", "HT3", "b545372e9f6e9351d4119af9258d8de0", 108736, Common::JA_JPN, 500),
+
+	WINGAME1t_l("humanbody", "", "ANIM.EXE", "10883c886da86bd2359a60c689d106a7", 1709290, Common::JA_JPN, 501),
+	WINGAME1t_l("humanbody", "Credits", "CREDIT.EXE", "eac7ab84229508620f59bca0873da513", 1813181, Common::JA_JPN, 501),
+	WINGAME1t_l("humanbody", "Save da Vinci", "SAVE_DV.EXE", "d5e1ffdb93d1624d469ce7574ec92727", 1410848, Common::JA_JPN, 501),
 
 	// Distributed with IBM Aptiva PCs
 	WINGAME2("ibmcdextra", "", "SAMPLER.EXE", "2e62abdad839e42068afdcd0644d7dcf", 929109,
