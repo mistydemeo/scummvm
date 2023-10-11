@@ -123,6 +123,12 @@ bool SdlAudioCDManager::play(int track, int numLoops, int startFrame, int durati
 	return true;
 }
 
+bool SdlAudioCDManager::play(int startFrame, int numLoops, int duration, bool onlyEmulate,
+		Audio::Mixer::SoundType soundType) {
+	// TODO not implemented
+	return false;
+}
+
 bool SdlAudioCDManager::isPlaying() const {
 	if (DefaultAudioCDManager::isPlaying())
 		return true;

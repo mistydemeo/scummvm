@@ -73,6 +73,8 @@ public:
 	void close() override;
 	bool play(int track, int numLoops, int startFrame, int duration, bool onlyEmulate,
 			Audio::Mixer::SoundType soundType) override;
+	bool playAbsolute(int startFrame, int numLoops, int duration, bool onlyEmulate,
+			Audio::Mixer::SoundType soundType) override;
 
 protected:
 	bool openCD(int drive) override;
@@ -250,6 +252,11 @@ bool MacOSXAudioCDManager::play(int track, int numLoops, int startFrame, int dur
 	_mixer->playStream(soundType, &_handle,
 	                   Audio::makeLoopingAudioStream(seekStream, start, end, (numLoops < 1) ? numLoops + 1 : numLoops), -1, _cd.volume, _cd.balance);
 	return true;
+}
+
+bool MacOSXAudioCDManager::playAbsolute(int startFrame, int numLoops, int duration, bool onlyEmulate,
+		Audio::Mixer::SoundType soundType) {
+	return false;
 }
 
 bool MacOSXAudioCDManager::findTrackNames(const Common::String &drivePath) {

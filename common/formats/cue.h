@@ -94,6 +94,11 @@ public:
 
 	struct LookupTable;
 
+	Array<CueFile> files();
+	Array<CueTrack> tracks();
+	CueTrack *getTrack(int tracknum);
+	CueTrack *getTrackAtFrame(int frame);
+
 private:
 	void parse(const char *sheet);
 

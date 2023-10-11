@@ -321,6 +321,29 @@ void Window::runTests() {
 
 	Common::CueSheet cue(cueTest);
 
+	// Common::Array<Common::CueSheet::CueFile> files = cue.files();
+	// for (int i = 0; i < files.size(); i++) {
+	// 	Common::CueSheet::CueFile file = files[i];
+	// 	for (int ti = 0; ti < file.tracks.size(); ti++) {
+			// warning("Track %i; pregap %i; title %s", file.tracks[ti].number, file.tracks[ti].pregap, file.tracks[ti].title.c_str());
+		// }
+	// }
+
+	// Common::CueSheet::CueTrack *track = cue.getTrack(2);
+	// warning("Track %i; title %s", track->number, track->title.c_str());
+
+	// Common::Array<Common::CueSheet::CueTrack> tracks = cue.tracks();
+	// for (int i = 1; i < tracks.size(); i++) {
+	// 	warning("i %i; Track %i; pregap %i; title %s; file %s", i, tracks[i].number, tracks[i].pregap, tracks[i].title.c_str(), tracks[i].file.name.c_str());
+	// 	warning("");
+	// 	for (int index = 0; index < tracks[i].indices.size(); index++) {
+	// 		warning("Index %i: %i", index, tracks[i].indices[index]);
+	// 	}
+	// }
+
+	Common::CueSheet::CueTrack *track = cue.getTrackAtFrame(34719);	
+	warning("Track %i; pregap %i; title %s; file %s; index 0: %i", track->number, track->pregap, track->title.c_str(), track->file.name.c_str(), track->indices[0]);
+
 	initGraphics(640, 480);
 
 	_mainArchive = new RIFXArchive();

@@ -40,6 +40,8 @@ public:
 	void close() override;
 	bool play(int track, int numLoops, int startFrame, int duration, bool onlyEmulate,
 			Audio::Mixer::SoundType soundType) override;
+	bool playAbsolute(int startFrame, int numLoops, int duration, bool onlyEmulate,
+			Audio::Mixer::SoundType soundType) override;
 	void stop() override;
 	bool isPlaying() const override;
 	void update() override;

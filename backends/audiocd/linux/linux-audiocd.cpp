@@ -180,6 +180,8 @@ public:
 	void close() override;
 	bool play(int track, int numLoops, int startFrame, int duration, bool onlyEmulate,
 			Audio::Mixer::SoundType soundType) override;
+	bool playAbsolute(int startFrame, int numLoops, int duration, bool onlyEmulate,
+			Audio::Mixer::SoundType soundType) override;
 
 protected:
 	bool openCD(int drive) override;
@@ -330,6 +332,12 @@ bool LinuxAudioCDManager::play(int track, int numLoops, int startFrame, int dura
 	    true);
 
 	return true;
+}
+
+bool LinuxAudioCDManager::playAbsolute(int startFrame, int numLoops, int duration, bool onlyEmulate,
+		Audio::Mixer::SoundType soundType) {
+	// TODO
+	return false;
 }
 
 LinuxAudioCDManager::DeviceList LinuxAudioCDManager::scanDevices() {

@@ -342,6 +342,22 @@ CueSheet::CueTrack *CueSheet::getTrack(int tracknum) {
 			return &_tracks[i];
 		}
 	}
+
+	return nullptr;
+}
+
+CueSheet::CueTrack *CueSheet::getTrackAtFrame(int frame) {
+	for (int i = 0; i < _tracks.size(); i++) {
+		if (_tracks[i].indices.size() == 0) {
+			continue;
+		}
+
+		if (frame >= _tracks[i].indices[0] && frame < _tracks[i].indices.back()) {
+			return &_tracks[i];
+		}
+	}
+
+	return nullptr;
 }
 
 } // End of namespace Common
