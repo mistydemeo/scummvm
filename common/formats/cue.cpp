@@ -352,11 +352,27 @@ CueSheet::CueTrack *CueSheet::getTrackAtFrame(int frame) {
 			continue;
 		}
 
+		// Inside pregap
 		if (frame >= _tracks[i].indices[0] && frame < _tracks[i].indices.back()) {
+			warning("Returning track %i", i);
+			return &_tracks[i];
+		}
+
+		// Between index 1 and the start of the subsequent track
+		if (i < _tracks.size() && frame > _tracks[i].indices.back() && frame < _tracks[i+1].indices[0]) {
+			warning("Returning track %i", i);
 			return &_tracks[i];
 		}
 	}
 
+	// Not found within any tracks, but could be in the final track
+	if (frame > _tracks.back().indices.back()) {
+		warning("Returning final track");
+		return &_tracks.back();
+	}
+
+	// Still not found; could indicate a gap between indices
+	warning("Not returning a track");
 	return nullptr;
 }
 

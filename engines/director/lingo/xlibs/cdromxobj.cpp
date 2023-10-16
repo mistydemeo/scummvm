@@ -302,6 +302,7 @@ void CDROMXObj::m_playAbsTime(int nargs) {
 	Datum frac = g_lingo->pop();
 
 	int startFrame = (min.asInt() * 60 * 75) + (sec.asInt() * 75) + frac.asInt();
+	warning("CDROMXObj::m_playAbsTime: playing at frame %i", startFrame);
 	g_director->_system->getAudioCDManager()->playAbsolute(startFrame, -1, 0);
 	me->_cdda_status = g_director->_system->getAudioCDManager()->getStatus();
 
