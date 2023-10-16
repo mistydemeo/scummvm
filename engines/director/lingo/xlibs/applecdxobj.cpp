@@ -22,6 +22,7 @@
 /*************************************
  *
  * USED IN:
+ * Classical Cats
  * The Daedalus Encounter
  *
  *************************************/
@@ -84,6 +85,7 @@
  * --
  */
 
+#include "backends/audiocd/audiocd.h"
 #include "director/director.h"
 #include "director/lingo/lingo.h"
 #include "director/lingo/lingo-object.h"
@@ -101,8 +103,13 @@ const char *AppleCDXObj::fileNames[] = {
 static MethodProto xlibMethods[] = {
 	{ "new",					AppleCDXObj::m_new,			0,	0,	400 },	// D4
 	{ "Service",				AppleCDXObj::m_service,		0,	0,	400 },	// D4
+	{ "Still",				AppleCDXObj::m_still,		0,	0,	400 },	// D4
 	{ "ReadStatus",				AppleCDXObj::m_readStatus,	0,	0,	400 },	// D4
 	{ "Eject",    				AppleCDXObj::m_eject,		0,	0,	400 },	// D4
+	{ "SetInPoint",    				AppleCDXObj::m_setInPoint,		1,	1,	400 },	// D4
+	{ "SetOutPoint",    				AppleCDXObj::m_setOutPoint,		1,	1,	400 },	// D4
+	{ "PlayCue",    				AppleCDXObj::m_playCue,		0,	0,	400 },	// D4
+	{ "PlaySegment",    				AppleCDXObj::m_playSegment,		0,	0,	400 },	// D4
     { nullptr, nullptr, 0, 0, 0 }
 };
 
@@ -124,10 +131,18 @@ void AppleCDXObj::close(int type) {
 
 AppleCDXObject::AppleCDXObject(ObjectType ObjectType) :Object<AppleCDXObject>("AppleCD") {
 	_objType = ObjectType;
+	_inpoint = 0;
+	_outpoint = 0;
 }
 
 void AppleCDXObj::m_new(int nargs) {
 	g_lingo->push(g_lingo->_state->me);
+}
+
+void AppleCDXObj::m_still(int nargs) {
+	g_director->_system->getAudioCDManager()->stop();
+
+	g_lingo->push(Datum(0));
 }
 
 void AppleCDXObj::m_service(int nargs) {
@@ -135,6 +150,41 @@ void AppleCDXObj::m_service(int nargs) {
 }
 
 void AppleCDXObj::m_readStatus(int nargs) {
+}
+
+void AppleCDXObj::m_setInPoint(int nargs) {
+	AppleCDXObject *me = static_cast<AppleCDXObject *>(g_lingo->_state->me.u.obj);
+
+	int inpoint = g_lingo->pop().asInt();
+	debug(5, "AppleCDXObj::setInPoint: %i", inpoint);
+	me->_inpoint = inpoint;
+
+	g_lingo->push(Datum(0));
+}
+
+void AppleCDXObj::m_setOutPoint(int nargs) {
+	AppleCDXObject *me = static_cast<AppleCDXObject *>(g_lingo->_state->me.u.obj);
+
+	int outpoint = g_lingo->pop().asInt();
+	debug(5, "AppleCDXObj::setOutPoint: %i", outpoint);
+	me->_outpoint = outpoint;
+
+	g_lingo->push(Datum(0));
+}
+
+void AppleCDXObj::m_playCue(int nargs) {
+	// Essentially a noop for us; this asks the drive to seek to that point,
+	// then poll until it does. We don't have seek times, so we'll
+	// simply noop.
+	g_lingo->push(Datum(0));
+}
+
+void AppleCDXObj::m_playSegment(int nargs) {
+	// Performs playback at the pre-specified absolute point on the disc,
+	// using the values from setInPoint and setOutPoint
+	AppleCDXObject *me = static_cast<AppleCDXObject *>(g_lingo->_state->me.u.obj);
+
+	g_director->_system->getAudioCDManager()->play(me->_inpoint, -1, 0, 0);
 }
 
 void AppleCDXObj::m_eject(int nargs) {

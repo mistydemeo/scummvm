@@ -27,6 +27,8 @@ namespace Director {
 class AppleCDXObject : public Object<AppleCDXObject> {
 public:
 	AppleCDXObject(ObjectType objType);
+	int _inpoint;
+	int _outpoint;
 };
 
 namespace AppleCDXObj {
@@ -38,8 +40,13 @@ void open(int type);
 void close(int type);
 
 void m_new(int nargs);
+void m_still(int nargs);
 void m_service(int nargs);
 void m_readStatus(int nargs);
+void m_setInPoint(int nargs);
+void m_setOutPoint(int nargs);
+void m_playCue(int nargs);
+void m_playSegment(int nargs);
 void m_eject(int nargs);
 
 } // End of namespace AppleCDXObj
